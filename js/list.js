@@ -3128,7 +3128,7 @@ const d = {
         },
       ],
       "name": "Love u",
-      "author": "LeywinGD and Cyphe and Ashton [LeywinGD]",
+      "author": "LeywinGD and more [LeywinGD]",
       "id": 81976918,
       "pass": "No pass",
       "percentToQualify": 100,
@@ -3215,6 +3215,18 @@ const d = {
       "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/qsamyvcDcsM"
+    },
+    /*=============================================================================*/
+    {
+      "vids": [
+
+      ],
+      "name": "Steal The Terror",
+      "author": "zMurray and more [zMurray]",
+      "id": 83448292,
+      "pass": "No pass",
+      "percentToQualify": 100,
+      "verificationVid": "https://youtu.be/dm7IabCIZt8",
     },
     /*=============================================================================*/
 
@@ -4948,7 +4960,7 @@ const d = {
         },
       ],
       "name": "FCL IS BIASED",
-      "author": "functionxd, Slick, bebras! [bebras!]",
+      "author": "Functionxd and more [bebras!]",
       "id": 82646736,
       "pass": "No pass",
       "percentToQualify": 100,
@@ -7233,6 +7245,18 @@ const d = {
     /*=============================================================================*/
     {
       "vids": [
+
+      ],
+      "name": "Squirt Mode",
+      "author": "Kopre and Gwpg1 [imgay123]",
+      "id": 83578397,
+      "pass": "No pass",
+      "percentToQualify": 100,
+      "verificationVid": "https://youtu.be/UpYWuylKBMk",
+    },
+    /*=============================================================================*/
+    {
+      "vids": [
         {
           "user": "Pizza",
           "link": "https://www.youtube.com/watch?v=jeuzfa-y7Vw",
@@ -7853,6 +7877,19 @@ const d = {
       "verificationVid": "https://www.youtube.com/watch?v=qgPlSKOTc_0"
     },
     /*=============================================================================*/
+{
+      "vids": [
+
+      ],
+      "name": "F15H YOURSELF",
+      "author": "Lunar79Au",
+      "id": 83121077,
+      "pass": "No pass",
+      "percentToQualify": 100,
+      "verificationVid": "https://youtu.be/azJcku8ck6M?t=24",
+    },
+    /*=============================================================================*/
+
     {
       "vids": [
         {
@@ -9863,555 +9900,7 @@ const d = {
       "verificationVid": "https://youtu.be/tWwZRJG7DtE"
     },
     /*=============================================================================*/
-    {
-      "vids": [
-        {
-          "user": "zachhh",
-          "link": "https://youtu.be/w99xoxGWnJA",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Whizkid05",
-          "link": "https://youtube.com/playlist?list=PL3-XSioba45MP4uAgvRnfMOVBdyZ9k48E",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "Mikey GMD",
-          "link": "https://www.youtube.com/watch?v=tvLNeMIr3xw",
-          "percent": 100,
-          "hz": "359hz"
-        },
-        {
-          "user": "Doodle",
-          "link": "https://www.youtube.com/watch?v=i_rD7eMp1J4",
-          "percent": 100,
-          "hz": "75hz"
-        },
-        {
-          "user": "Trans Bitch",
-          "link": "https://www.youtube.com/watch?v=gDk7ar0kPWU",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "DanceWithMeNow",
-          "link": "https://youtu.be/Aohh5ThnULw",
-          "percent": 100,
-          "hz": "Mobile"
-        },
-        {
-          "user": "Tai0",
-          "link": "https://youtu.be/6X8KNWE96n8",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Pizza",
-          "link": "https://youtu.be/pLNqgWvwRms",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Lunar79Au",
-          "link": "https://youtu.be/D1pO_ECPxfg",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "JustCrust",
-          "link": "https://www.youtube.com/watch?v=euiutN6teOc",
-          "percent": 100,
-          "hz": "60hz"
-        },
-        {
-          "user": "Breakcore",
-          "link": "https://www.youtube.com/watch?v=wjcmFznRZyE",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "ANormalArdey",
-          "link": "https://www.youtube.com/watch?v=ry5_YHKRwEw",
-          "percent": 100,
-          "hz": "60hz"
-        },
-        {
-          "user": "Ninjabeary",
-          "link": "https://www.youtube.com/watch?v=qiFE6JqNivo",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Microwaveee",
-          "link": "https://www.youtube.com/watch?v=qOW6O6rcZJY",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Halledo",
-          "link": "https://www.youtube.com/watch?v=eqI5VDmTvag",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "WaveAZ",
-          "link": "https://youtu.be/sQ8znOb2L0c",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "Meowmasterer",
-          "link": "https://youtu.be/d7g1qx1lSUA",
-          "percent": 100,
-          "hz": "75hz"
-        },
-        {
-          "user": "LeywinGD",
-          "link": "https://www.youtube.com/watch?v=Auf-OSzz-8Q",
-          "percent": 100,
-          "hz": "288hz"
-        },
-        {
-          "user": "CrokyTheKiwi",
-          "link": "https://www.youtube.com/watch?v=6r-qAjOCGqU",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "bebras!",
-          "link": "https://youtu.be/5eju9WsBaRQ",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "Cyphe",
-          "link": "https://youtu.be/6rGFJdI0LOQ",
-          "percent": 100,
-          "hz": "360hz",
-        },
-        {
-          "user": "WauksGD",
-          "link": "https://www.youtube.com/watch?v=WWkJ_Itr_Fs",
-          "percent": 100,
-          "hz": "144hz",
-        },
-        {
-          "user": "Jannis",
-          "link": "https://youtu.be/BffA_fHJ2fg",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Brooke",
-          "link": "https://www.youtube.com/watch?v=yC5HwoFiG98",
-          "percent": 100,
-          "hz": "Mobile"
-        },
-        {
-          "user": "SpaceUK is a hacker",
-          "link": "https://www.youtube.com/watch?v=REbF0K0hoJc",
-          "percent": 100,
-          "hz": "300hz"
-        },
-        {
-          "user": "Troy3",
-          "link": "https://youtu.be/q8fltUTh6ps",
-          "percent": 100,
-          "hz": "180hz"
-        },
-        {
-          "user": "TurtleER",
-          "link": "https://www.youtube.com/watch?v=-_UcQU-KoUI",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "TrueNirvana",
-          "link": "https://www.youtube.com/watch?v=XJKX6iO3U70",
-          "percent": 100,
-          "hz": "144hz",
-        },
-        {
-          "user": "Riptide",
-          "link": "https://youtube.com/playlist?list=PLOjzjtecTqC7CPOejbncLB2GYVldbgSnY",
-          "percent": 100,
-          "hz": "120hz"
-        },
-        {
-          "user": "BlizzardLaZario",
-          "link": "https://www.youtube.com/watch?v=mQQx1wPbxHs",
-          "percent": 100,
-          "hz": "144hz",
-        },
-        {
-          "user": "kopre",
-          "link": "https://www.youtube.com/watch?v=w6o2cr7ezcI",
-          "percent": 100,
-          "hz": "144hz",
-        },
-        {
-          "user": "Airzyy",
-          "link": "https://www.youtube.com/watch?v=x_LnzB902sY&list=PLOBTE9lbAou_DjcYFAIdxhgYZMFEPQWZL",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "SoundWaveMaui",
-          "link": "https://www.youtube.com/watch?v=F7w9skHHezw",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Sanctum",
-          "link": "https://youtu.be/pKpkxMKXDGQ",
-          "percent": 100,
-          "hz": "Mobile"
-        },
-        {
-          "user": "CoopaTroopa",
-          "link": "https://www.youtube.com/watch?v=ja9hGtFF9JI&t=5s",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Moofin",
-          "link": "https://youtu.be/YOagFnJ7Taw",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "JustKrypt1",
-          "link": "https://www.youtube.com/watch?v=kcnX8BC6tRk&list=PLz6K-PG9TEMsi4uSE3BCfpVfMsKMlIrNi&index=1",
-          "percent": 100,
-          "hz": "360hz",
-        },
-      ],
-      "name": "Empyrean Skies",
-      "author": "zeshi",
-      "id": 69979296,
-      "pass": "No Pass",
-      "percentToQualify": 100,
-      "verificationVid": "https://cdn.discordapp.com/attachments/852735448493064224/853647362308571196/2021-06-08_17-24-15_Trim.mp4"
-    },
-    /*=============================================================================*/
-    {
-      "vids": [
-        {
-          "user": "Spaace",
-          "link": "https://youtu.be/pqzqx1Rjvw4",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Breakcore",
-          "link": "https://www.youtube.com/watch?v=QiMF_74yqWk",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "Mikey GMD",
-          "link": "https://www.youtube.com/watch?v=lE_0NcU374E",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "Meowmasterer",
-          "link": "https://youtu.be/d7g1qx1lSUA",
-          "percent": 100,
-          "hz": "75hz"
-        },
-        {
-          "user": "zPrismaa",
-          "link": "https://www.youtube.com/watch?v=tUFpUZREUDE",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Lunar79Au",
-          "link": "https://www.youtube.com/watch?v=bY8wkCzXfUs",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "WaveAZ",
-          "link": "https://www.youtube.com/watch?v=vD00C-HTcec",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "Whizkid05",
-          "link": "https://youtube.com/playlist?list=PL3-XSioba45MP4uAgvRnfMOVBdyZ9k48E",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "Oldeller",
-          "link": "https://www.youtube.com/watch?v=MX3l-HvffbU&list=PLXM6FruicUtaVnSLjjsqjQFqQtn_T-y8C&index=31",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "LeywinGD",
-          "link": "https://www.youtube.com/watch?v=1rCuNMtTy-0",
-          "percent": 100,
-          "hz": "288hz"
-        },
-        {
-          "user": "CrokyTheKiwi",
-          "link": "https://www.youtube.com/watch?v=6r-qAjOCGqU",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "WauksGD",
-          "link": "https://www.youtube.com/watch?v=9xd5rAYZGAI",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Cyphe",
-          "link": "https://youtu.be/6rGFJdI0LOQ",
-          "percent": 100,
-          "hz": "360hz",
-        },
-        {
-          "user": "Jannis",
-          "link": "https://youtu.be/BffA_fHJ2fg",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "bebras!",
-          "link": "https://youtu.be/Uf476sQZYJQ",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "SpaceUK is a hacker",
-          "link": "https://www.youtube.com/watch?v=REbF0K0hoJc",
-          "percent": 100,
-          "hz": "300hz"
-        },
-        {
-          "user": "Pizza",
-          "link": "https://www.youtube.com/watch?v=jeuzfa-y7Vw",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Troy3",
-          "link": "https://www.youtube.com/watch?v=ckvlaKJPYmY",
-          "percent": 100,
-          "hz": "180hz"
-        },
-        {
-          "user": "TurtleER",
-          "link": "https://www.youtube.com/watch?v=-_UcQU-KoUI",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Riptide",
-          "link": "https://www.youtube.com/watch?v=zMf5yJGMm1M",
-          "percent": 100,
-          "hz": "120hz"
-        },
-        {
-          "user": "Airzyy",
-          "link": "https://www.youtube.com/watch?v=ABkytvPRjhs&ab_channel=snowspike",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "BlizzardLaZario",
-          "link": "https://www.youtube.com/watch?v=pT-TIEI8zuY",
-          "percent": 100,
-          "hz": "144hz",
-        },
-        {
-          "user": "SoundWaveMaui",
-          "link": "https://youtu.be/lmEAf7GUBBg",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Sanctum",
-          "link": "https://youtu.be/pKpkxMKXDGQ",
-          "percent": 100,
-          "hz": "Mobile"
-        },
-        {
-          "user": "CoopaTroopa",
-          "link": "https://www.youtube.com/watch?v=ja9hGtFF9JI&t=5s",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Razily",
-          "link": "https://m.youtube.com/watch?v=lPUEJj9KCAo",
-          "percent": 100,
-          "hz": "360hz",
-        },
-        {
-          "user": "Moofin",
-          "link": "https://www.youtube.com/watch?v=1X14GJcLnIw",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "JustKrypt1",
-          "link": "https://www.youtube.com/watch?v=kcnX8BC6tRk&list=PLz6K-PG9TEMsi4uSE3BCfpVfMsKMlIrNi&index=1",
-          "percent": 100,
-          "hz": "360hz",
-        },
-      ],
-      "name": "Absolutely Livid",
-      "author": "Novaa",
-      "id": 74752229,
-      "pass": "No pass",
-      "percentToQualify": 100,
-      "verificationVid": "https://youtu.be/jw6T4Pk-tPw"
-    },
-    /*=============================================================================*/
-    {
-      "vids": [
-        {
-          "user": "bebras!",
-          "link": "https://www.youtube.com/watch?v=OHhEkoRE784",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "Jannis",
-          "link": "https://youtu.be/kEtFyIroAOQ",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Lunar79Au",
-          "link": "https://youtu.be/UAfZeOrv-qw",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "CrokyTheKiwi",
-          "link": "https://youtu.be/YbX1KcRD9ic",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "TurtleER",
-          "link": "https://www.youtube.com/watch?v=-_UcQU-KoUI",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Azadanzan",
-          "link": "https://youtu.be/gPpyyqJMxEU",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "TrueNirvana",
-          "link": "https://www.youtube.com/watch?v=XJKX6iO3U70",
-          "percent": 100,
-          "hz": "144hz",
-        },
-        {
-          "user": "Riptide",
-          "link": "https://youtu.be/XFa6NWXvy5o",
-          "percent": 100,
-          "hz": "120hz"
-        },
-        {
-          "user": "Slick",
-          "link": "https://www.youtube.com/playlist?list=PLNW3XzPl6qPibagagwjRKnDqam3h8GtEm",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Meowmasterer",
-          "link": "https://youtu.be/eyA3pRsS5-E",
-          "percent": 100,
-          "hz": "75hz"
-        },
-        {
-          "user": "SpaceUK is a hacker",
-          "link": "https://www.youtube.com/watch?v=mlcct6vFQl8&list=PL8WRxFOeCP_LUa3i4A2GljxfWZKsoR_pU&index=1",
-          "percent": 100,
-          "hz": "300hz"
-        },
-        {
-          "user": "Airzyy",
-          "link": "https://youtu.be/0PKi5gw3cvA",
-          "percent": 100,
-          "hz": "360hz"
-        },
-        {
-          "user": "BlizzardLaZario",
-          "link": "https://www.youtube.com/watch?v=sm7ul0TUJdE",
-          "percent": 100,
-          "hz": "144hz",
-        },
-        {
-          "user": "g502 enthusiast",
-          "link": "https://www.youtube.com/watch?v=47LfciqBvl4&list=PL3uQMgm0d9D-3XLZgmqBgLGulqYkICDSU",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "SoundWaveMaui",
-          "link": "https://www.youtube.com/watch?v=F7w9skHHezw",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "Sanctum",
-          "link": "https://www.youtube.com/watch?v=W8l0y7587jI",
-          "percent": 100,
-          "hz": "Mobile"
-        },
-        {
-          "user": "Troy3",
-          "link": "https://youtu.be/APUojJyMrvg",
-          "percent": 100,
-          "hz": "180hz"
-        },
-        {
-          "user": "CoopaTroopa",
-          "link": "https://www.youtube.com/watch?v=ja9hGtFF9JI&t=5s",
-          "percent": 100,
-          "hz": "240hz"
-        },
-        {
-          "user": "sinnrs",
-          "link": "https://www.youtube.com/watch?v=aW_o15xmgLU",
-          "percent": 100,
-          "hz": "288hz"
-        },
-        {
-          "user": "Moofin",
-          "link": "https://www.youtube.com/watch?v=5fMlQCgmQOM",
-          "percent": 100,
-          "hz": "144hz"
-        },
-        {
-          "user": "Clipazz",
-          "link": "https://youtu.be/AOV6wQ_Xj3g",
-          "percent": 100,
-          "hz": "144hz"
-        },
-      ],
-      "name": "WADUH",
-      "author": "LeywinGD",
-      "id": 80066855,
-      "pass": "No Pass",
-      "percentToQualify": 100,
-      "verificationVid": "https://www.youtube.com/watch?v=K-Wbn6VVJlI"
-    },
-    /*================================================================================*/
+  
   ],
   "version": [
     1,
