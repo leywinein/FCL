@@ -12,6 +12,7 @@
     content="https://cdn.discordapp.com/attachments/868053273268068372/997350062353043516/FCL.png">
   <meta name="viewport" content="user-scalable=yes">
   <meta charset="UTF-8">
+  <script src="dist/clipboard.min.js"></script>
 </head>
 
 <body>
@@ -30,42 +31,50 @@
   <cover-all id="hi">
     <header id="dl-header">
       <div id="sitename">
-        <!--<img src="https://discord.gg/q8N3VtMg4T" alt="" width="60" height="60">--><strong>Fun Challenge List
-        </strong><small><em id="version-node"></em></small>
+        <!--<img src="https://discord.gg/q8N3VtMg4T" alt="" width="60" height="60">-->
+        <img id="list-logo" src="css/assets/fclegg.png">
+        <em id="version-node"></em>
       </div>
-      <div id="pc-link"><a href="https://discord.gg/NwJBKt5VGG"><em><strong>Official Discord</strong></a></em></div>
+      <div id="header-links">
+        <div id="record-link">
+          <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSekkziDp9VP4he7tcOpMAuW1Fz2KXBxbCuBSQj4hejQYOtRWg/viewform?usp=sf_link">
+            Submit a Record
+          </a>
+        </div>
+        <div id="pc-link">
+          <a href="https://discord.gg/NwJBKt5VGG">
+            <img src="css/assets/discord-logo-white.svg" alt="Discord"></img>
+          </a>
+        </div>
+      </div>
     </header>
     <div id="list">
     </div>
     <div id="info">
       <div id="inner-info">
         <center>
-          <div id="levelname"></div>
+          <div id="leveltitle"></div>
           <div id="levelauthor">by <span id="inside-level-author"></span></div>
-          <br>
           <div id="leveldescription"></div>
           <div id="levelvid"></div>
         </center>
         <div id="records">
           <center>
-            <hr>
-            <div id="level-info" style="font-size: 22px">
+            <div id="level-info">
               <div id="records-score"></div>
-              <div id="records-id"></div>
-              <div id="records-pass"></div>
+              <div id="copy-buttons">
+                <div id="records-id"></div>
+                <div id="records-pass"></div>
+              </div>
             </div>
             <hr>
-            <div id="records-title"><strong>Records</strong></div><br>
+            <div id="records-title"><strong>Records</strong></div>
             <div id="qualification"><strong id="levelqualify"></strong>
-              <center>
-				  <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSekkziDp9VP4he7tcOpMAuW1Fz2KXBxbCuBSQj4hejQYOtRWg/viewform?usp=sf_link">
-					  > Submit Record < 
-				  </a>
-              </center>
+            <a id="level-submit" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSekkziDp9VP4he7tcOpMAuW1Fz2KXBxbCuBSQj4hejQYOtRWg/viewform?usp=sf_link">
+              Submit Record 
+            </a>
             </div>
-            <br>
           </center>
-          <hr>
           <div id="records-table">
           </div>
         </div>
@@ -73,87 +82,120 @@
     </div>
     <div id="additional-information">
       <div id="inner-right-info">
-        <div><strong><u><a target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSekkziDp9VP4he7tcOpMAuW1Fz2KXBxbCuBSQj4hejQYOtRWg/viewform?usp=sf_link">Link to submit records
-              </a></u></strong></div>
-        <br>
-        <div>
-          <strong>List Editors:</strong>
-          <li>
-            <a href="https://www.youtube.com/channel/UC-oIsUwn0QtJwbo3_R9DeGA">Hilo</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UC2ukkTXV0bpVsobRKg6xgnA">Whizkid05</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UCMgmMN55bpzlWfvBcPzrLGQ">Brooke</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UC41yEvTKxRd9ZktGVtYlW6w">Cyphe</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UCjLnriOV81-14jrbrJbxPMw">Leywin</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UCSRD9giojTqVGPLbGFiAhDQ">Boke</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UCH8ydIN7wks2JMN53NxYBXw">Lunar79Au</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UCN5qw9LNKNmSm7oP4ijpl7w/featured">Troy</a>
+        <div id="credits">
+          Redesign by 
+          <a href="https://www.youtube.com/KrisGra" target="_blank">
+            KrisGra
+          </a>
         </div>
-        <div>
-          <br><br>
-          You can submit a record if you meet the following requirements:
+        <div id="staff-list">
           <ul>
-            <li>Completed the level without using hacks (however, FPS bypass is allowed, up to 360fps)</li>
-            <li>Completed the level that is listed on the site - please check the level ID before you submit a record
+
+            <div class="staff-title" id="owner-title">
+              <img id="owner-icon" src="css/assets/owner-icon.svg">
+              Owners
+            </div>
+
+            <li>
+              <a href="https://www.youtube.com/channel/UCjLnriOV81-14jrbrJbxPMw" target="_blank">Leywin</a>
             </li>
-            <li>Have either source audio or clicks/taps in the video.</li>
-            <li>The recording must have a previous attempt and entire death animation shown before the completion,
-              unless the completion is on the first attempt.</li>
-            <li>Do not use secret routes or bug routes</li>
-            <li>Do not use easy modes, only a record of the unmodified level qualifies</li>
-          </ul><br>
-          <br>
-          <p>
-            Changes:
-            <br>
-          <ul>
-            Have you seen the clown that hides from gay people bro????<br>
+            <li>
+              <a href="https://www.youtube.com/channel/UC2ukkTXV0bpVsobRKg6xgnA" target="_blank">Whizkid05</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC-oIsUwn0QtJwbo3_R9DeGA" target="_blank">Hilo</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCMgmMN55bpzlWfvBcPzrLGQ" target="_blank">Brooke</a>
+            </li>
+
+            <div class="staff-title" id="admin-title">
+              <img id="admin-icon" src="css/assets/admin-icon.svg">
+              Admins
+            </div>
+
+            <div class="staff-title" id="helper-title">
+              <img id="helper-icon" src="css/assets/helper-icon.svg">
+              Helpers
+            </div>
+
+            <li>
+              <a href="https://www.youtube.com/channel/UCH8ydIN7wks2JMN53NxYBXw" target="_blank">Lunar79Au</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCSRD9giojTqVGPLbGFiAhDQ" target="_blank">Boke</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCN5qw9LNKNmSm7oP4ijpl7w/featured" target="_blank">Troy</a>
+            </li>
           </ul>
-          </p>
+        </div>
+        <div id="guidelines">
+          <div id="guidelines-title">Record Submission Guidelines:</div>
+          <ul>
+            <li>
+              Completed the level with <strong>no hacks</strong> (but FPS bypass is allowed up to 360 fps)
+            </li>
+            <li>
+              Completed the level that is <strong>listed on the site</strong> (please check the <strong>level ID</strong> before you submit a record)
+            </li>
+            <li>
+              Have either source audio <strong>or</strong> clicks/taps in the video
+            </li>
+            <li>
+              The recording must have a <strong>previous attempt</strong> and <strong>entire death</strong> animation shown before the completion,
+              unless the completion is on the first attempt
+            </li>
+            <li>
+              Do not use secret routes or bug routes
+            </li>
+            <li>
+              Do not use easy modes, only a record of the <strong>unmodified level</strong> qualifies
+            </li>
+            <li>
+              Review <strong>LDMs</strong> with a <strong>list staff</strong> member in our 
+              <a href="https://discord.gg/NwJBKt5VGG" target="_blank">
+                Discord Server</a>
+              before using them
+            </li>
+          </ul>
+          <!-- <p>
+            Changes:
+          <ul>
+            Have you seen the clown that hides from gay people bro????
+          </ul>
+          </p> -->
         </div>
       </div>
-      <hr>
       <div id="user-rank-info">
-        <style type='text/css'>
-          A:link {
-            color: black !important;
+        <!-- <style type='text/css'>
+          /*why the hell does this code exist and
+          why is it korean*/
+          /* a:link {
+            color: white;
             text-decoration: none;
-          }
+          } */
 
           /* 아직 방문하지 않은경우 */
-          A:visited {
-            color: black !important;
+          /* a:visited {
+            color: white;
             text-decoration: none;
-          }
+          } */
 
           /* 한번 이상 방문한 링크 처리 */
-          A:active {
-            color: black !important;
+          /* a:active {
+            color: white;
             text-decoration: none;
-          }
+          } */
 
           /* 마우스로 클릭하는 순간 */
-          A:hover {
-            color: rgba(0, 0, 0, 0.5) !important;
+          /* a:hover {
+            color: rgba(255, 255, 255, 0.5);
             text-decoration: none;
-          }
+          } */
 
           /* 마우스 링크 위 올려 놓았을때 */
-        </style>
+        </style> -->
         <center><strong>User Stats</strong></center>
         <div id="user-rank"></div>
       </div>
@@ -231,11 +273,16 @@
         }
       }
     }
+
+    //popup for the "and more"
     function getAuthors(rank) {
       Swal.fire({
-        html: list[rank - 1].more + '.'
+        text: list[rank - 1].more,
+        background: "rgb(32, 49, 149)",
+        confirmButtonColor: "rgb(50, 73, 203)"
       });
     }
+
     var rank_node = $("#user-rank");
     var rank_data = [];
     for (var i = 0; i < list.length; i++) {
@@ -348,18 +395,18 @@
           rank = (entry.key) + 1;
         }
         var hacked = "";
-        if (entry.hacked != null) {
+        if (entry.hacked || entry.phacked) {
           if (entry.hacked) {
-            hacked = " <span class='hacked'>HACKED</span>";
+            hacked = "<span class='hacked'>HACKED</span>";
           } else {
-            hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
+            hacked = "<span class='p-hacked'>POSSIBLY HACKED</span>";
           }
         }
-        $("#levelname").html((rank > 150 ? `` : `#` + rank + ` `) + entry.name + hacked);
+        $("#leveltitle").html((rank > 150 ? `` : `<div id="levelrank">#${rank}</div> `) + `<span id="levelname">${entry.name}</span>` + hacked);
         var author = entry.author;
         var final_author;
         if (author.includes(' more ')) {
-          final_author = author.replace(' more ', ' <u><span onclick="getAuthors(' + rank + ')" style="cursor:pointer">more</u> ');
+          final_author = author.replace('more', `<u><span onclick="getAuthors(${rank})" style="cursor:pointer">more</span></u>`);
         } else {
           final_author = author
         }
@@ -367,15 +414,23 @@
         $("#inside-level-author").empty();
         $("#inside-level-author").html(final_author);
         $("#leveldescription").empty();
+        if(!entry.desc){
+          $("#leveldescription").css("display", "none")
+        }
         $("#leveldescription").text(entry.desc);
         $("#levelvid").empty();
-        if (entry.verificationVid !== null && entry.verificationVid !== "") {
-          $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+        if (entry.verificationVid && entry.verificationVid.trim() !== "") {
+          $("#levelvid").html(`<iframe class="vid" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
         }
-        $("#levelqualify").text(entry.percentToQualify);
-        $("#records-score").html(`<strong>Points when completed : ${getPoint(rank)}</strong>`);
-        $("#records-id").html(`<strong>Level ID : ${entry.id}</strong>`);
-        $("#records-pass").html(`<strong>Level Password : ${entry.pass}</strong>`);
+        $("#levelqualify").text(`Percent to qualify: ${entry.percentToQualify}%`);
+        $("#records-score").html(`<span id="levelpoints">${getPoint(rank)} Points</span>`);
+        $("#records-id").html(`Level ID:<div class="level-info-button" id="copyid"><span id="level-id">${entry.id}</span><img class="clipboard" src="css/assets/copy-regular.svg"></div>`);
+        if(entry.pass){
+          $("#records-pass").html(`Level Password:<div class="level-info-button" id="copypass"><span id="level-pass">${entry.pass}</span><img class="clipboard" src="css/assets/copy-regular.svg"></div>`);
+        }
+        else {
+          $("#records-pass").html(`Level Password:<div class="level-info-button">No Pass</div>`);
+        }
         $("#song").html(`<strong>Song Name: ${entry.song}</strong>`);
         $("#inside-level-author").html(final_author);
         $(record_node).empty();
@@ -394,6 +449,28 @@
         }
       }
       cueCSS();
+
+      //ok I actually finally got it working 
+      //KrisGra#0209 16:02 07.11.2022
+      $("#copyid").on('click', (e) => {
+        navigator.clipboard.writeText($("#level-id").text());
+        Swal.fire({
+          title: $("#level-id").text(),
+          text: "Level ID Copied!",
+          background: "rgb(32, 49, 149)",
+          confirmButtonColor: "rgb(50, 73, 203)"
+        });
+      });
+      $("#copypass").on('click', (e) => {
+        navigator.clipboard.writeText($("#level-pass").text());
+        Swal.fire({
+          title: $("#level-pass").text(),
+          text: "Level Password Copied!",
+          background: "rgb(32, 49, 149)",
+          confirmButtonColor: "rgb(50, 73, 203)"
+        });
+      });
+
     };
     $('.entry').click(function () {
       $('.entry').removeClass('selected')
@@ -412,6 +489,30 @@
     }
     load(l * 1)
   </script>
+<!--This did not work in fact-->
+  <!-- <script>
+    //you have no idea how frustrating this was to make
+    //i tried so many solutions if you are reading this
+    //just know that at the time of writing this i just figured out
+    //finally how to make this work and i am so relieved
+    //bless the lord I feel so smart right now
+    //KrisGra#0209 at 15:33 07.11.2022
+    $("#copyid").on('click', (e) => {
+      navigator.clipboard.writeText($("#level-id").text());
+      Swal.fire({
+        text: $("#level-id").text(),
+        background: "#3c3c3c"
+      });
+    });
+    $("#copypass").on('click', (e) => {
+      navigator.clipboard.writeText($("#level-pass").text());
+      Swal.fire({
+        text: $("#level-pass").text(),
+        background: "#3c3c3c"
+      });
+    });
+    //this solution does suck tho imo 15:35
+  </script> -->
   <noscript>
     <div id="block">
       You are not using JavaScript

@@ -162,7 +162,6 @@ const d = {
       "name": "GrubHub",
       "author": "Cyphe",
       "id": 77267128,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/RThIH0VQoAw"
     },
@@ -275,7 +274,6 @@ const d = {
       "name": "blackandwhite",
       "author": "LeywinGD",
       "id": 80191341,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=f4Fh6EEK40k",
     },
@@ -340,7 +338,6 @@ const d = {
       "name": "FRIED EGG",
       "author": "LeywinGD",
       "id": 82750553,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/di2B0wJPZTo"
     },
@@ -507,7 +504,6 @@ const d = {
       "name": "TAKYON",
       "author": "Microwaveee",
       "id": 74995787,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/XTQ3APGszwA"
     },
@@ -704,7 +700,6 @@ const d = {
       "name": "Me and U",
       "author": "Matluthi",
       "id": 73086170,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=mZ7OBlAWNpI"
     },
@@ -890,7 +885,6 @@ const d = {
       "name": "Something",
       "author": "Whizkid05",
       "id": 71835450,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/8K7AxEz8Fow"
     },
@@ -1047,7 +1041,6 @@ const d = {
       "name": "SPOILER",
       "author": "LeywinGD",
       "id": 76055318,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/Qju60ek44t4"
     },
@@ -1100,7 +1093,6 @@ const d = {
       "name": "50 // 50",
       "author": "Ardent [Cyphe]",
       "id": 79832865,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/vV1jA3xVcEI"
     },
@@ -1207,7 +1199,6 @@ const d = {
       "name": "TIME",
       "author": "Ashton [Cyphe]",
       "id": 82057893,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=82g04tX7sE4"
     },
@@ -1380,7 +1371,6 @@ const d = {
       "name": "Bean Chilli",
       "author": "Hilo",
       "id": 75279236,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/EyfEyEcoyZk"
     },
@@ -1691,7 +1681,6 @@ const d = {
       "name": "DoodL",
       "author": "Lunar79au [Whizkid05]",
       "id": 79346940,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=BWhv25gY55k"
     },
@@ -1907,7 +1896,6 @@ const d = {
       "name": "Scarlett Challenge",
       "author": "Spaace",
       "id": 75458846,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/00PYkxI_eS0"
     },
@@ -1924,7 +1912,6 @@ const d = {
       "name": "PI55 YOURSELF",
       "author": "NotEliite and SoundWaveMaui [SoundWaveMaui]",
       "id": 84709803,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/u4UztsxeFik"
     },
@@ -2166,7 +2153,6 @@ const d = {
       "name": "SANDSTORM",
       "author": "Ashton [Meowmasterer]",
       "id": 76626266,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/35UiWm2gu50"
     },
@@ -2243,7 +2229,6 @@ const d = {
       "name": "Leywin Smelly",
       "author": "Cyphe",
       "id": 77521477,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/GFkzvKBC0d8"
     },
@@ -2302,7 +2287,6 @@ const d = {
       "name": "Void",
       "author": "Whizkid05 and LeywinGD [Whizkid05]",
       "id": 79960875,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/Xv3J6f4wCyw"
     },
@@ -2350,7 +2334,6 @@ const d = {
       "name": "blue challenge",
       "author": "pleid",
       "id": 82663249,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/uZC4pvwUcw8"
     },
@@ -2398,7 +2381,6 @@ const d = {
       "name": "Slickest Challenge",
       "author": "bebras!",
       "id": 82865930,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/WQoQGVR5NKE"
     },
@@ -2559,7 +2541,6 @@ const d = {
       "name": "Swirling Embers",
       "author": "Gyrodog [Meowmasterer]",
       "id": 74851383,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/sFyxz86e-m0"
     },
@@ -2714,7 +2695,6 @@ const d = {
       "name": "Twisted Vines",
       "author": "Gyrodog [Meowmasterer]",
       "id": 73763174,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/gfAoNuk4do4"
     },
@@ -2833,7 +2813,6 @@ const d = {
       "name": "Nothing",
       "author": "Gyrodog",
       "id": 80232302,
-      "pass": "No Pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/oHUvZDG-dVQ"
     }, /*=================================================================================*/
@@ -3083,7 +3062,6 @@ const d = {
       "name": "Overflow",
       "author": "ardent [GS12]",
       "id": 73018798,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=9gjRYC5BDqY"
     },
@@ -3130,7 +3108,6 @@ const d = {
       "name": "Love u",
       "author": "LeywinGD and more [LeywinGD]",
       "id": 81976918,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=f3dCVLZBNOM"
     },
@@ -3195,7 +3172,6 @@ const d = {
       "name": "SPACED OUT",
       "author": "Ardent [LeywinGD]",
       "id": 80959560,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/h4x1bwV0I3s"
     },
@@ -3212,7 +3188,6 @@ const d = {
       "name": "GW Maui Challenge II",
       "author": "HRees [SoundWaveMaui]",
       "id": 82539946,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/qsamyvcDcsM"
     },
@@ -3224,7 +3199,6 @@ const d = {
       "name": "Steal The Terror",
       "author": "zMurray and more [zMurray]",
       "id": 83448292,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/dm7IabCIZt8",
     },
@@ -3446,7 +3420,6 @@ const d = {
       "name": "Washington Chamber",
       "author": "Novaa [Whizkid05]",
       "id": 74121457,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/W-Ep4OVEr5o"
     },
@@ -3524,7 +3497,6 @@ const d = {
       "name": "SnowStorm",
       "author": "Astraale",
       "id": 76572805,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/JB1D-gjBO_E"
     },
@@ -3649,7 +3621,6 @@ const d = {
       "name": "ToCaUP",
       "author": "Pandaa",
       "id": 80395080,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/e1POXfvpy7c"
     },
@@ -3834,7 +3805,6 @@ const d = {
       "name": "NULL",
       "author": "Microwaveee",
       "id": 72801163,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=KrNdQTlryvI"
     },
@@ -4539,7 +4509,6 @@ const d = {
       "name": "superman that",
       "author": "Hilo [LeywinGD]",
       "id": 77376832,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/m3imjRHPD4Y"
     },
@@ -4736,7 +4705,6 @@ const d = {
       "name": "Fog",
       "author": "Novaa",
       "id": 74331384,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/3LexIDCSuGA"
     },
@@ -4915,7 +4883,6 @@ const d = {
       "name": "LitE SensitivE",
       "author": "LeywinGD",
       "id": 74989416,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=3P4W9T5b3Vk"
     },
@@ -4962,7 +4929,6 @@ const d = {
       "name": "FCL IS BIASED",
       "author": "Functionxd and more [bebras!]",
       "id": 82646736,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/V-M_Sektw2M"
     },
@@ -5123,7 +5089,6 @@ const d = {
       "name": "penandpaper",
       "author": "LeywinGD",
       "id": 75876910,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=vsAofbC_WmA"
     },
@@ -5165,7 +5130,6 @@ const d = {
       "name": "Restless",
       "author": "GS12",
       "id": 83073656,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=5OySG3FO8-c"
     },
@@ -5415,7 +5379,6 @@ const d = {
       "name": "Burst Wave",
       "author": "Shrrade",
       "id": 82209227,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/SmTCpwFaGA4"
     },
@@ -5444,7 +5407,6 @@ const d = {
       "name": "Jamals Fun Challenge",
       "author": "Airzyy and Whizkid05 [Airzyy]",
       "id": 77287338,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=hmS59LDOtMc"
     },
@@ -5575,7 +5537,6 @@ const d = {
       "name": "pohgii challenge",
       "author": "ToastFried9",
       "id": 77328857,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/64hQP_PsO9M"
     },
@@ -5788,7 +5749,6 @@ const d = {
       "name": "DESERTED RUINS",
       "author": "CoopaTroopa",
       "id": 82236511,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=-jeGylExucA"
     },
@@ -5811,7 +5771,6 @@ const d = {
       "name": "Singapore",
       "author": "wsh and Moofin [Moofin]",
       "id": 83447442,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/Odifmvibp0M"
     },
@@ -5847,7 +5806,6 @@ const d = {
       "name": "I love u too",
       "author": "kopre",
       "id": 82695021,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/RIlo7xBlyrs"
     },
@@ -6743,7 +6701,6 @@ const d = {
       "name": "Darkened Storm II",
       "author": "Lunar79Au",
       "id": 74200383,
-      "pass": "No Pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=ydC4OgcoMYQ"
     },
@@ -7048,7 +7005,6 @@ const d = {
       "name": "Idolize",
       "author": "Brooke",
       "id": 70119171,
-      "pass": "No Pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/WmUE4SPaUtw"
     },
@@ -7215,7 +7171,6 @@ const d = {
       "name": "Jugnel",
       "author": "Microwaveee",
       "id": 76153819,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/eNyvBgku8jk"
     },
@@ -7238,7 +7193,6 @@ const d = {
       "name": "my green thug",
       "author": "Hilo",
       "id": 78631132,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/8I7ZkIHM8vc"
     },
@@ -7250,7 +7204,6 @@ const d = {
       "name": "Squirt Mode",
       "author": "Kopre and Gwpg1 [imgay123]",
       "id": 83578397,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/UpYWuylKBMk",
     },
@@ -7399,7 +7352,6 @@ const d = {
       "name": "Spooky Night",
       "author": "Jelkso",
       "id": 78571951,
-      "pass": "No Pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/fEbSuRNdrzM"
     },
@@ -7488,7 +7440,6 @@ const d = {
       "name": "RICE SOUP",
       "author": "Ardent",
       "id": 79936301,
-      "pass": "No Pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/RP5lkEfGYM8"
     },
@@ -7673,7 +7624,6 @@ const d = {
       "name": "Rainbarf",
       "author": "Blitzcuit",
       "id": 76973579,
-      "pass": "No Pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/c81Zf_WIfVc?t=293"
     },
@@ -7817,7 +7767,6 @@ const d = {
       "name": "Unknown",
       "author": "LeywinGD",
       "id": 73265106,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=tB5Kt6wp_7c"
     },
@@ -7872,7 +7821,6 @@ const d = {
       "name": "Jack Daniels",
       "author": "functionxd",
       "id": 82592311,
-      "pass": "No Pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=qgPlSKOTc_0"
     },
@@ -7884,7 +7832,6 @@ const d = {
       "name": "F15H YOURSELF",
       "author": "Lunar79Au",
       "id": 83121077,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/azJcku8ck6M?t=24",
     },
@@ -8058,7 +8005,6 @@ const d = {
       "name": "Google Pixel 6",
       "author": "Foxcannon",
       "id": 75515263,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=fRviR1h-Rvc"
     },
@@ -8177,7 +8123,6 @@ const d = {
       "name": "DIE LIT",
       "author": "LeywinGD",
       "id": 81813481,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=ZwYyyMthwaw"
     },
@@ -8266,7 +8211,6 @@ const d = {
       "name": "r i p",
       "author": "LeywinGD",
       "id": 81604275,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=Ipb0YKxJP0k"
     },
@@ -8576,7 +8520,6 @@ const d = {
       "name": "Oxycodone",
       "author": "Cyphe",
       "id": 80190792,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/aL-3_DubT80"
     },
@@ -9012,7 +8955,6 @@ const d = {
       "name": "Wavelength",
       "author": "GalaxyDashie",
       "id": 76605153,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/M7Zc8DWU6po"
     },
@@ -9125,7 +9067,6 @@ const d = {
       "name": "FLASH FREEZE",
       "author": "Lunar79Au",
       "id": 80434235,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=gULNkS_19Zo"
     },
@@ -9316,7 +9257,6 @@ const d = {
       "name": "Dr Pepper Cream Soda",
       "author": "Pandaa",
       "id": 76954247,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/YO95K3I6LAU"
     },
@@ -9405,7 +9345,6 @@ const d = {
       "name": "Hi Whiz Finale",
       "author": "Lunar79Au",
       "id": 80461714,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/8ayxH3Kh04E"
     },
@@ -9512,7 +9451,6 @@ const d = {
       "name": "Larry Fisherman",
       "author": "LeywinGD and Hilo [LeywinGD]",
       "id": 81867074,
-      "pass": "No pass",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=tLnV7_MOzLk"
     },
@@ -9895,7 +9833,6 @@ const d = {
       "name": "Heat Stroke",
       "author": "LeywinGD",
       "id": 71062434,
-      "pass": "No Pass",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/tWwZRJG7DtE"
     },
@@ -9903,9 +9840,9 @@ const d = {
   
   ],
   "version": [
-    1,
+    2,
     0,
-    2
+    0
   ],
 
 };
