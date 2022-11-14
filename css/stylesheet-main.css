@@ -559,20 +559,22 @@ Scroll bar
 }
 
 /*****Media queries*****/
-@media all and (max-width: 1464px) {
-  #copy-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.5em;
-    flex-wrap: wrap;
-    width: 10em;
+@media all and (max-width: 772px) {
+	#guidelines {
+    width: 100%;
+    padding: 1.5em 0.75em;
   }
+	#additional-information {
+		overflow-x: hidden;
+	}
 }
 @media all and (max-width: 676px) {
   #copy-buttons {
     width: 90%;
   }
+	#info {
+		overflow-x: hidden;
+	}
   #inner-info {
     padding: 1.5em 0;
   }
@@ -585,22 +587,24 @@ Scroll bar
   #inner-right-info {
     padding: 1.5em 0;
   }
-  #guidelines {
-    width: 100%;
-    padding: 1.5em 0;
-  }
-  #guidelines ul {
-    padding: 0;
-  }
+	#guidelines {
+		padding: 1.5em 0em;
+	}
   #user-rank-info ol {
     padding: 1em 0em 1em 0.25em;
   }
   header {
     padding: 0 1em;
   }
-  #header-links  {
-    flex-direction: column;
-    gap: 0.5em;
+	#level-submit {
+	padding: 0.5em;
+	}
+}
+
+@media all and (max-width: 591px) {
+	#header-links  {
+	flex-direction: column;
+	gap: 0.5em;
 	}
   #record-link {
     font-size: 0.9rem;
@@ -620,4 +624,7 @@ Scroll bar
     background-color 0.15s ease-out;
     user-select: none;
   }
+	.interentry {
+		padding: 0.5em 0;
+	}
 }
