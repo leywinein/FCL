@@ -624,7 +624,11 @@ Scroll bar
     background-color 0.15s ease-out;
     user-select: none;
   }
+	#list {
+		word-wrap: break-word;
+	}
 	.interentry {
 		padding: 0.5em 0;
+		word-wrap: break-word;
 	}
 }
