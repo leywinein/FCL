@@ -596,11 +596,12 @@ Scroll bar
     padding: 1em 0em 1em 0.25em;
   }
   header {
-    padding: 0;
+    padding: 0 1em;
   }
   #header-links  {
+    flex-direction: column;
     gap: 0.5em;
-  }
+	}
   #record-link {
     font-size: 0.9rem;
     font-weight: bolder;

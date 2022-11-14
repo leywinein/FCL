@@ -1908,6 +1908,18 @@ const d = {
           "percent": 100,
           "hz": "360hz"
         },
+        {
+          "user": "LeywinGD",
+          "link": "https://youtu.be/zAprymTni9A",
+          "percent": 100,
+          "hz": "288hz"
+        },
+        {
+          "user": "asmallsock",
+          "link": "https://youtu.be/5G-xawp1pe0",
+          "percent": 100,
+          "hz": "300hz"
+        },
       ],
       "name": "PI55 YOURSELF",
       "author": "NotEliite and SoundWaveMaui [SoundWaveMaui]",
@@ -3104,6 +3116,12 @@ const d = {
           "percent": 100,
           "hz": "120hz"
         },
+        {
+          "user": "asmallsock",
+          "link": "https://youtu.be/FdtZt8sP39c",
+          "percent": 100,
+          "hz": "300hz"
+        },
       ],
       "name": "Love u",
       "author": "LeywinGD and more [LeywinGD]",
@@ -4085,6 +4103,12 @@ const d = {
           "link": "https://youtu.be/0JLo2O0muOs",
           "percent": 100,
           "hz": "360hz"
+        },
+        {
+          "user": "asmallsock",
+          "link": "https://youtu.be/su7D-hlwfUY",
+          "percent": 100,
+          "hz": "300hz"
         },
       ],
       "name": "Water",
@@ -9842,7 +9866,7 @@ const d = {
   "version": [
     2,
     0,
-    0
+    2
   ],
 
 };
