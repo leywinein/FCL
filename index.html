@@ -27,9 +27,8 @@
   <script type='text/javascript' src="js/jquery-3.2.1.min.js">
 
   </script>
-  <script type='text/javascript' src="js/sweetalert.min.js">
-
-  </script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="sweetalert2.all.min.js"></script>
   <script type='text/javascript' src="js/list.js">
 
   </script>
@@ -462,21 +461,31 @@
       //KrisGra#0209 16:02 07.11.2022
       $("#copyid").on('click', (e) => {
         navigator.clipboard.writeText($("#level-id").text());
-        Swal.fire({
-          title: $("#level-id").text(),
-          text: "Level ID Copied!",
-          background: "rgb(32, 49, 149)",
-          confirmButtonColor: "rgb(50, 73, 203)"
-        });
+					Swal.fire({
+						icon: 'success',
+						text: 'Level ID Copied!',
+						color: "ghostwhite",
+						background: "rgb(32, 49, 149)",
+						toast: true,
+						timer: 1750,
+						timerProgressBar: true,
+						position: "top",
+						showConfirmButton: false
+					});
       });
       $("#copypass").on('click', (e) => {
         navigator.clipboard.writeText($("#level-pass").text());
-        Swal.fire({
-          title: $("#level-pass").text(),
-          text: "Level Password Copied!",
-          background: "rgb(32, 49, 149)",
-          confirmButtonColor: "rgb(50, 73, 203)"
-        });
+				Swal.fire({
+					icon: 'success',
+					text: 'Level Password Copied!',
+					color: "ghostwhite",
+					background: "rgb(32, 49, 149)",
+					toast: true,
+					timer: 1750,
+					timerProgressBar: true,
+					position: "top",
+					showConfirmButton: false
+				});
       });
 
     };

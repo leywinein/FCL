@@ -108,6 +108,7 @@ function getUserData(user) {
             'Completed Levels : '+clears+' Level(s)<br>'+
             '<br>Record List : '+progresses+'<br>'+
             '</strong></center>',
+				color: "ghostwhite",
         confirmButtonColor: "rgb(32, 49, 149)",
         background: "url(css/assets/profile-popup-bg.svg)"
     });

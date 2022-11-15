@@ -522,21 +522,17 @@ User records popup
 */
 .swal2-popup {
   background-size: cover !important;
-  box-shadow: 0 0 25px 5px black !important;
+  box-shadow: 0 0 25px 5px black;
   border-radius: 1em !important;
 }
 .swal2-popup a:hover {
   color:#bec7ec;
   text-decoration:underline; 
 }
-.swal2-title {
-  color: white !important;
-}
 .swal2-confirm {
   box-shadow: 0 0 20px black !important;
   border-radius: 0.75em !important;
 }
-
 /* 
 Scroll bar 
 [DO NOT MODIFY unless you know what you're doing]
