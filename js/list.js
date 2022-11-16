@@ -697,6 +697,12 @@ const d = {
           "percent": 100,
           "hz": "240hz"
         },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
+        },
       ],
       "name": "Me and U",
       "author": "Matluthi",
@@ -1923,6 +1929,24 @@ const d = {
           "percent": 100,
           "hz": "300hz"
         },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
+        },
+        {
+          "user": "Googles58",
+          "link": "https://youtu.be/DigXv_ogt4U",
+          "percent": 100,
+          "hz": "360hz",
+        },
+        {
+          "user": "CoopaTroopa",
+          "link": "https://www.youtube.com/watch?v=wen3IMV3imc",
+          "percent": 100,
+          "hz": "240hz",
+        },
       ],
       "name": "PI55 YOURSELF",
       "author": "NotEliite and SoundWaveMaui [SoundWaveMaui]",
@@ -2553,6 +2577,12 @@ const d = {
           "percent": 100,
           "hz": "165hz",
         },
+        {
+          "user": "asmallsock",
+          "link": "https://youtu.be/C9a6NKP_CSo",
+          "percent": 100,
+          "hz": "300hz",
+        },
       ],
       "name": "Swirling Embers",
       "author": "Gyrodog [Meowmasterer]",
@@ -2824,6 +2854,12 @@ const d = {
           "link": "https://youtu.be/-nl70Q_Ku4U",
           "percent": 100,
           "hz": "360hz"
+        },
+        {
+          "user": "asmallsock",
+          "link": "https://youtu.be/8jOw7Oc3J4A",
+          "percent": 100,
+          "hz": "300hz"
         },
       ],
       "name": "Nothing",
@@ -3207,7 +3243,13 @@ const d = {
           "percent": 100,
           "hz": "360hz"
         },
-          ],
+        {
+          "user": "CoopaTroopa",
+          "link": "https://www.youtube.com/watch?v=wen3IMV3imc",
+          "percent": 100,
+          "hz": "240hz",
+        },
+       ],
       "name": "GW Maui Challenge II",
       "author": "HRees [SoundWaveMaui]",
       "id": 82539946,
@@ -3217,7 +3259,12 @@ const d = {
     /*=============================================================================*/
     {
       "vids": [
-
+        {
+          "user": "CoopaTroopa",
+          "link": "https://www.youtube.com/watch?v=wen3IMV3imc",
+          "percent": 100,
+          "hz": "240hz",
+        },
       ],
       "name": "Steal The Terror",
       "author": "zMurray and more [zMurray]",
@@ -4115,6 +4162,12 @@ const d = {
           "link": "https://youtu.be/su7D-hlwfUY",
           "percent": 100,
           "hz": "300hz"
+        },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
         },
       ],
       "name": "Water",
@@ -5405,6 +5458,12 @@ const d = {
           "percent": 100,
           "hz": "120hz",
         },
+        {
+          "user": "asmallsock",
+          "link": "https://youtu.be/sg-Q-jCWUyw",
+          "percent": 100,
+          "hz": "360hz",
+        },
       ],
       "name": "Burst Wave",
       "author": "Shrrade",
@@ -5734,6 +5793,12 @@ const d = {
           "percent": 100,
           "hz": "120hz",
         },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
+        },
       ],
       "name": "Crooked Currents",
       "author": "Gyrodog [Meowmasterer]",
@@ -5796,6 +5861,12 @@ const d = {
           "link": "https://youtu.be/QTZ8OYIfif4",
           "percent": 100,
           "hz": "360hz"
+        },
+        {
+          "user": "CoopaTroopa",
+          "link": "https://www.youtube.com/watch?v=wen3IMV3imc",
+          "percent": 100,
+          "hz": "240hz",
         },
       ],
       "name": "Singapore",
@@ -6015,6 +6086,12 @@ const d = {
           "link": "https://youtu.be/-nl70Q_Ku4U",
           "percent": 100,
           "hz": "360hz"
+        },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
         },
       ],
       "name": "Vanadium",
@@ -7219,6 +7296,18 @@ const d = {
           "percent": 100,
           "hz": "360hz"
         },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
+        },
+        {
+          "user": "CoopaTroopa",
+          "link": "https://www.youtube.com/watch?v=wen3IMV3imc",
+          "percent": 100,
+          "hz": "240hz",
+        },
       ],
       "name": "my green thug",
       "author": "Hilo",
@@ -7229,7 +7318,12 @@ const d = {
     /*=============================================================================*/
     {
       "vids": [
-
+        {
+          "user": "CoopaTroopa",
+          "link": "https://www.youtube.com/watch?v=wen3IMV3imc",
+          "percent": 100,
+          "hz": "240hz",
+        },
       ],
       "name": "Squirt Mode",
       "author": "Kopre and Gwpg1 [imgay123]",
@@ -7377,6 +7471,12 @@ const d = {
           "link": "https://youtu.be/-nl70Q_Ku4U",
           "percent": 100,
           "hz": "360hz"
+        },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
         },
       ],
       "name": "Spooky Night",
@@ -7857,7 +7957,12 @@ const d = {
     /*=============================================================================*/
 {
       "vids": [
-
+        {
+          "user": "CoopaTroopa",
+          "link": "https://www.youtube.com/watch?v=wen3IMV3imc",
+          "percent": 100,
+          "hz": "240hz",
+        },
       ],
       "name": "F15H YOURSELF",
       "author": "Lunar79Au",
@@ -8545,6 +8650,12 @@ const d = {
           "link": "https://youtu.be/S5w1H_kJhK4",
           "percent": 100,
           "hz": "240hz"
+        },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
         },
       ],
       "name": "Oxycodone",
@@ -9371,6 +9482,12 @@ const d = {
           "percent": 100,
           "hz": "120hz",
         },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
+          "percent": 100,
+          "hz": "360hz",
+        },
       ],
       "name": "Hi Whiz Finale",
       "author": "Lunar79Au",
@@ -9856,6 +9973,12 @@ const d = {
         {
           "user": "JustKrypt1",
           "link": "https://www.youtube.com/watch?v=kcnX8BC6tRk&list=PLz6K-PG9TEMsi4uSE3BCfpVfMsKMlIrNi&index=1",
+          "percent": 100,
+          "hz": "360hz",
+        },
+        {
+          "user": "NotMatheo",
+          "link": "https://www.youtube.com/watch?v=Dg1Y2DpFJaQ",
           "percent": 100,
           "hz": "360hz",
         },

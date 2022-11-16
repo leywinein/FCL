@@ -50,6 +50,7 @@ More Coming Soon!
 ## List Helpers:
 - Lunar
 - Troy
+- asmallsock
 ---
 ## Reliable Managers:
 - Lunar
