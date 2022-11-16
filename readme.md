@@ -35,26 +35,29 @@ More Coming Soon!
 # List Staff Team
 ---
 ## Owners:
-- Whizkid
+- Leywin
+- Whizkid05
 - Hilo
+- Brooke
 ---
 ## List Admins:
-- Brooke
-- Cyphe
+- NONE!
 ---
-## Server Administrators:
+## Server Admins:
 - Ardent
-- Leywin
 - Boke
 ---
 ## List Helpers:
 - Lunar
 - Troy
-- asmallsock
+---
+## Reliable Managers:
+- Lunar
 ---
 ## Server Moderators:
-- YinnYang
-- Snowspike
+- Ashton
+- Cyphe
 ---
 ## Repo Maintainers:
-- Electro
+- KrisGra
+- Leywin
