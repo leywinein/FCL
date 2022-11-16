@@ -163,7 +163,7 @@ const d = {
       "author": "Cyphe",
       "id": 77267128,
       "percentToQualify": 100,
-      "verificationVid": "https://youtu.be/RThIH0VQoAw"
+      "verificationVid": "https://youtu.be/RThIH0VQoAw",
     },
     /*=============================================================================*/
     {
@@ -338,6 +338,7 @@ const d = {
       "name": "FRIED EGG",
       "author": "LeywinGD",
       "id": 82750553,
+      "song": "https://cdn.discordapp.com/attachments/913948573878603797/1026165789126045696/551655.mp3",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/di2B0wJPZTo"
     },
@@ -1093,6 +1094,7 @@ const d = {
       "name": "50 // 50",
       "author": "Ardent [Cyphe]",
       "id": 79832865,
+      "song": "https://cdn.discordapp.com/attachments/1004610174868262942/1042226526856429678/5050.mp3",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/vV1jA3xVcEI"
     },
@@ -1199,6 +1201,7 @@ const d = {
       "name": "TIME",
       "author": "Ashton [Cyphe]",
       "id": 82057893,
+      "song": "https://cdn.discordapp.com/attachments/913948573878603797/1026165639230013541/95.mp3",
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=82g04tX7sE4"
     },
@@ -2299,6 +2302,7 @@ const d = {
       "name": "Void",
       "author": "Whizkid05 and LeywinGD [Whizkid05]",
       "id": 79960875,
+      "song": "https://cdn.discordapp.com/attachments/913948573878603797/1009003466687008848/30.mp3",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/Xv3J6f4wCyw"
     },
@@ -3125,6 +3129,7 @@ const d = {
       ],
       "name": "Love u",
       "author": "LeywinGD and more [LeywinGD]",
+      "more": "LeywinGD, Ashton, Cyphe",
       "id": 81976918,
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=f3dCVLZBNOM"
@@ -3216,6 +3221,7 @@ const d = {
       ],
       "name": "Steal The Terror",
       "author": "zMurray and more [zMurray]",
+      "more": "zMurray, kopre, Gwpg1, lunxtic",
       "id": 83448292,
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/dm7IabCIZt8",
@@ -4377,7 +4383,6 @@ const d = {
       ],
       "name": "FCL Malding",
       "author": "FireRift",
-      "more": "none",
       "id": 72303329,
       "pass": "013467",
       "percentToQualify": 100,
@@ -4533,6 +4538,7 @@ const d = {
       "name": "superman that",
       "author": "Hilo [LeywinGD]",
       "id": 77376832,
+      "song": "https://cdn.discordapp.com/attachments/913948573878603797/991141566989205644/447046.mp3",
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/m3imjRHPD4Y"
     },
@@ -4951,7 +4957,8 @@ const d = {
         },
       ],
       "name": "FCL IS BIASED",
-      "author": "Functionxd and more [bebras!]",
+      "author": "functionxd and more [bebras!]",
+      "more": "functionxd, Slick, bebras!",
       "id": 82646736,
       "percentToQualify": 100,
       "verificationVid": "https://youtu.be/V-M_Sektw2M"
@@ -5343,7 +5350,6 @@ const d = {
       ],
       "name": "Blitzkrieg Biscuit",
       "author": "Blitzcuit",
-      "more": "none",
       "id": 75533436,
       "pass": "Free Copy",
       "percentToQualify": 100,
@@ -9865,8 +9871,8 @@ const d = {
   ],
   "version": [
     2,
-    0,
-    3
+    1,
+    0
   ],
 
 };

@@ -21,20 +21,16 @@
 	<link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700" rel="stylesheet">
   <link href="css/stylesheet-main.css" type="text/css" rel="stylesheet">
   <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/868053273268068372/997350062353043516/FCL.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
 </head>
 
 <body>
-  <script type='text/javascript' src="js/jquery-3.2.1.min.js">
 
-  </script>
+  <script type='text/javascript' src="js/jquery-3.2.1.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="sweetalert2.all.min.js"></script>
-  <script type='text/javascript' src="js/list.js">
-
-  </script>
-  <script type='text/javascript' src="js/userData.js">
-
-  </script>
+  <script type='text/javascript' src="js/list.js"></script>
+  <script type='text/javascript' src="js/userData.js"></script>
   <cover-all id="hi">
     <header id="dl-header">
       <div id="sitename">
@@ -73,6 +69,7 @@
                 <div id="records-id"></div>
                 <div id="records-pass"></div>
               </div>
+              <div id="records-song"></div>
             </div>
             <hr>
             <div id="records-title"><strong>Records</strong></div>
@@ -208,6 +205,8 @@
       </div>
     </div>
   </cover-all>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
   <script>
     // height changing script
     var hChange = function () {
@@ -282,13 +281,15 @@
     }
 
     //popup for the "and more"
-    function getAuthors(rank) {
-      Swal.fire({
-        text: list[rank - 1].more,
-        background: "rgb(32, 49, 149)",
-        confirmButtonColor: "rgb(50, 73, 203)"
-      });
-    }
+    // function getAuthors(rank) {
+    //   Swal.fire({
+    //     title: "All Authors",
+    //     text: list[rank - 1].more,
+    //     color: "white",
+    //     background: "rgb(32, 49, 149)",
+    //     confirmButtonColor: "rgb(50, 73, 203)"
+    //   });
+    // }
 
     var rank_node = $("#user-rank");
     var rank_data = [];
@@ -413,32 +414,39 @@
         var author = entry.author;
         var final_author;
         if (author.includes(' more ')) {
-          final_author = author.replace('more', `<u><span onclick="getAuthors(${rank})" style="cursor:pointer">more</span></u>`);
+          final_author = author.replace('more', `<button style="cursor: pointer; user-select: none;" id="more">more</button>`);
         } else {
           final_author = author
         }
         final_author = final_author.replace(' [', ', Verified by ').replace(']', "")
-        $("#inside-level-author").empty();
         $("#inside-level-author").html(final_author);
-        $("#leveldescription").empty();
-        if(!entry.desc){
-          $("#leveldescription").css("display", "none")
+        
+
+
+        $("#leveldescription").css("display", "none");
+        if(entry.desc) {
+          $("#leveldescription").text(entry.desc);
+          $("#leveldescription").css("display", "block");
         }
-        $("#leveldescription").text(entry.desc);
-        $("#levelvid").empty();
+
         if (entry.verificationVid && entry.verificationVid.trim() !== "") {
           $("#levelvid").html(`<iframe class="vid" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
         }
+
         $("#levelqualify").text(`Percent to qualify: ${entry.percentToQualify}%`);
         $("#records-score").html(`<span id="levelpoints">${getPoint(rank)} Points</span>`);
         $("#records-id").html(`Level ID:<div class="level-info-button" id="copyid"><span id="level-id">${entry.id}</span><img class="clipboard" src="css/assets/copy-regular.svg"></div>`);
-        if(entry.pass){
-          $("#records-pass").html(`Level Password:<div class="level-info-button" id="copypass"><span id="level-pass">${entry.pass}</span><img class="clipboard" src="css/assets/copy-regular.svg"></div>`);
+
+        entry.pass ?
+        $("#records-pass").html(`Level Password:<div class="level-info-button" id="copypass"><span id="level-pass">${entry.pass}</span><img class="clipboard" src="css/assets/copy-regular.svg"></div>`)
+        :
+        $("#records-pass").html(`Level Password:<div class="level-info-button">No Pass</div>`);
+
+        $("#records-song").css("display", "none");
+        if(entry.song) {
+          $("#records-song").html(`Custom Song: <div class="level-info-button" id="download-button"><a href="${entry.song}" target="_blank" id="songlink">Download</a><img class="download" src="css/assets/download-solid.svg"></div>`);
+          $("#records-song").css("display", "");
         }
-        else {
-          $("#records-pass").html(`Level Password:<div class="level-info-button">No Pass</div>`);
-        }
-        $("#song").html(`<strong>Song Name: ${entry.song}</strong>`);
         $("#inside-level-author").html(final_author);
         $(record_node).empty();
         entry.vids.sort(function (a, b) {
@@ -456,22 +464,30 @@
         }
       }
       cueCSS();
-
+      
+      tippy('#more', {
+        content: `<strong>${list[rank - 1].more}</strong>`,
+        allowHTML: true,
+        placement: "bottom",
+        arrow: true,
+        animation: 'scale',
+        trigger: 'click',
+      });
       //ok I actually finally got it working 
       //KrisGra#0209 16:02 07.11.2022
       $("#copyid").on('click', (e) => {
         navigator.clipboard.writeText($("#level-id").text());
-					Swal.fire({
-						icon: 'success',
-						text: 'Level ID Copied!',
-						color: "ghostwhite",
-						background: "rgb(32, 49, 149)",
-						toast: true,
-						timer: 1750,
-						timerProgressBar: true,
-						position: "top",
-						showConfirmButton: false
-					});
+        Swal.fire({
+          icon: 'success',
+          text: 'Level ID Copied!',
+          color: "ghostwhite",
+          background: "rgb(32, 49, 149)",
+          toast: true,
+          timer: 1750,
+          timerProgressBar: true,
+          position: "top",
+          showConfirmButton: false
+        });
       });
       $("#copypass").on('click', (e) => {
         navigator.clipboard.writeText($("#level-pass").text());

@@ -354,6 +354,13 @@ header{
 #levelname {
   font-size: 2.25rem;
 }
+#more {
+  background: none;
+  border: none;
+  font-size: inherit;
+  padding: 0;
+  text-decoration: underline;
+}
 #level-info {
   font-size: 1.375rem;
   font-weight: bold;
@@ -363,6 +370,12 @@ header{
   align-items: center;
   gap: 1em;
 }
+#levelpoints {
+  background-color: rgb(19, 32, 95);
+  padding: 0em 0.35em;
+  border-radius: 0.5em;
+  box-shadow: 0 0 15px black;
+}
 #copy-buttons {
   display: flex;
   align-items: flex-end;
@@ -371,25 +384,29 @@ header{
   flex-wrap: wrap;
   width: 60%;
 }
-#levelpoints {
-  background-color: rgb(19, 32, 95);
-  padding: 0em 0.35em;
-  border-radius: 0.5em;
-  box-shadow: 0 0 15px black;
+.clipboard,
+.download {
+  height: 20px;
+  width: 30px;
 }
 #records-id {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
-.clipboard {
-  height: 20px;
-  width: 30px;
-}
 #records-pass {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+#records-song {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+#download-button {
+  padding: 0.25em 1em;
 }
 #records-title strong {
   font-size: 1.8rem;
@@ -566,6 +583,10 @@ Scroll bar
 }
 @media all and (max-width: 676px) {
   #copy-buttons {
+    width: 90%;
+  }
+  #records-song {
+    align-items: stretch;
     width: 90%;
   }
 	#info {
