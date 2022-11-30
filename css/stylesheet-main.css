@@ -240,7 +240,8 @@ header{
 }
 #owner-icon,
 #helper-icon,
-#admin-icon {
+#admin-icon,
+#coder-icon{
   height: 20px;
 }
 #staff-list ul {
