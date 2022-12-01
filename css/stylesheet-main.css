@@ -467,7 +467,7 @@ header{
   border-radius: 0.75em;
   box-shadow: 0px 0px 35px rgba(87, 121, 255, 0.5), 0px 0px 35px -5px rgba(87, 121, 255, 0.5) inset;
   background:
-  radial-gradient(black,#0007, transparent 60%);
+  radial-gradient(black, #0007, transparent 60%);
 }
 .hacked{
   background: rgb(32, 65, 165);
