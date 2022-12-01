@@ -60,7 +60,9 @@ header{
   left: 30px; */
   font-size: 2em;
   animation: 1s ease-in-out 0s 1 slideInFromLeft;
-  transition: transform 0.1s ease-out, text-shadow 0.1s;
+  transition: transform 0.075s ease-out,
+  text-shadow 0.075s,
+  filter 0.075s ease-out;
   display: flex;
   align-items: flex-end;
   gap: 0.2em;
@@ -70,8 +72,8 @@ header{
   text-shadow: 0px 0px 10px #c0ceff;
 }
 #list-logo {
-  transition: filter 0.1s ease-out,
-  transform 0.1s ease-out;
+  transition: inherit;
+  filter: drop-shadow(0 0 5px black);
 }
 #sitename:hover #list-logo {
   filter: drop-shadow(-5px 5px 10px black);
@@ -79,7 +81,7 @@ header{
 }
 #version-node {
   font-size: 1.25rem;
-  transform: translateY(5px);
+  line-height: 1;
 }
 #header-links  {
   display: flex;
@@ -463,7 +465,9 @@ header{
   aspect-ratio: 16/9;
   width: 95%;
   border-radius: 0.75em;
-  box-shadow: 0px 0px 35px -5px rgba(87, 121, 255, 0.5);
+  box-shadow: 0px 0px 35px rgba(87, 121, 255, 0.5), 0px 0px 35px -5px rgba(87, 121, 255, 0.5) inset;
+  background:
+  radial-gradient(black,#0007, transparent 60%);
 }
 .hacked{
   background: rgb(32, 65, 165);
