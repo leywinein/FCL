@@ -119,6 +119,9 @@ header{
   background-color 0.15s ease-out;
   user-select: none;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #pc-link::before{
   content: "";
