@@ -103,7 +103,7 @@ header{
 }
 #record-link:hover {
   box-shadow: 0 0 15px black;
-  backdrop-filter: saturate(120%);
+  backdrop-filter: saturate(135%);
 }
 #pc-link{
   position: relative;
@@ -116,7 +116,8 @@ header{
   transition: 
   scale 0.15s ease-out,
   box-shadow 0.15s ease-in-out,
-  background-color 0.15s ease-out;
+  background-color 0.15s ease-out,
+  filter 0.2s ease-out;
   user-select: none;
   overflow: hidden;
   display: flex;
@@ -135,15 +136,16 @@ header{
 }
 #pc-link img {
   height: 1.65em;
-  filter: drop-shadow(0px 0px 7px #4E5D94);
+  filter: drop-shadow(0px 0px 5px #0007);
+  transition: inherit;
 }
 #pc-link:hover {
   scale: 1.05;
-  box-shadow: 0px 5px 20px black;
+  box-shadow: 0 0 17px #000035;
   background-color: #454FBF;
 }
 #pc-link:hover img {
-  filter: drop-shadow(0px 0px 7px #7289DA);
+  filter: drop-shadow(0px 0px 5px #FFF7);
 }
 #pc-link:hover::before {
   left: 100%;
