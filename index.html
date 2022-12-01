@@ -1,5 +1,5 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<title>Fun Challenge List</title>
 
@@ -18,24 +18,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 
-	<link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700&display=swap" rel="stylesheet">
   <link href="css/stylesheet-main.css" type="text/css" rel="stylesheet">
   <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/868053273268068372/997350062353043516/FCL.png" type="image/x-icon">
+
   <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
 </head>
 
 <body>
-
-  <script type='text/javascript' src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="sweetalert2.all.min.js"></script>
-  <script type='text/javascript' src="js/list.js"></script>
-  <script type='text/javascript' src="js/userData.js"></script>
-  <cover-all id="hi">
+
+	<script type='text/javascript' src="js/list.js"></script>
+	<script type='text/javascript' src="js/userData.js"></script>
+
     <header id="dl-header">
       <div id="sitename">
         <!--<img src="https://discord.gg/q8N3VtMg4T" alt="" width="60" height="60">-->
-        <img id="list-logo" src="css/assets/fclegg.png">
+        <img id="list-logo" height="65px" width="150px" src="css/assets/fclegg.avif" alt="FCL">
         <em id="version-node"></em>
       </div>
       <div id="header-links">
@@ -95,10 +96,12 @@
         <div id="staff-list">
           <ul>
 
-            <div class="staff-title" id="owner-title">
-              <img id="owner-icon" src="css/assets/owner-icon.svg">
-              Owners
-            </div>
+            <li>
+              <div class="staff-title" id="owner-title">
+                <img id="owner-icon" src="css/assets/owner-icon.svg" alt="owner">
+                Owners
+              </div>
+            </li>
 
             <li>
               <a href="https://www.youtube.com/channel/UCjLnriOV81-14jrbrJbxPMw" target="_blank">Leywin</a>
@@ -113,17 +116,19 @@
               <a href="https://www.youtube.com/channel/UCMgmMN55bpzlWfvBcPzrLGQ" target="_blank">Brooke</a>
             </li>
 
-            <div class="staff-title" id="admin-title">
-              <img id="admin-icon" src="css/assets/admin-icon.svg">
-              Admins
-            </div>
+            <li>
+              <div class="staff-title" id="admin-title">
+                <img id="admin-icon" src="css/assets/admin-icon.svg" alt="admin">
+                Admins
+              </div>
+            </li>
             
             <li>
               <a href="https://www.youtube.com/channel/UCH8ydIN7wks2JMN53NxYBXw" target="_blank">Lunar79Au</a>
             </li>
 
             <div class="staff-title" id="helper-title">
-              <img id="helper-icon" src="css/assets/helper-icon.svg">
+              <img id="helper-icon" src="css/assets/helper-icon.svg" alt="helper">
               Helpers
             </div>
 
@@ -137,10 +142,12 @@
               <a href="https://www.youtube.com/channel/UCAgeGug7v1tFw__iVyLDr6Q" target="_blank">asmallsock</a>
             </li>
 
-            <div class="staff-title" id="coder-title">
-              <img id="coder-icon" src="css/assets/coder-icon.svg">
-              Coders
-            </div>
+            <li>
+              <div class="staff-title" id="coder-title">
+                <img id="coder-icon" src="css/assets/coder-icon.svg" alt="coder">
+                Coders
+              </div>
+            </li>
 
             <li>
               <a href="https://www.youtube.com/krisgra" target="_blank">KrisGra</a>
@@ -217,7 +224,6 @@
         <div id="user-rank"></div>
       </div>
     </div>
-  </cover-all>
   <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="https://unpkg.com/tippy.js@6"></script>
   <script>
@@ -343,7 +349,7 @@
     var rank = `<ol>`;
     for (var i = 0; i < rank_data.length; i++) {
       sc = `getUserData(${i})`;
-      rank = `${rank} <span onclick="${sc}" style="cursor:pointer">${i + 1}. ${rank_data[i].name} : ${rank_data[i].point} ➦</span><br>`;
+      rank = `${rank} <li><span onclick="${sc}" style="cursor:pointer">${i + 1}. ${rank_data[i].name} : ${rank_data[i].point} ➦</span></li>`;
     }
     rank = `${rank} </ol>`;
     rank_node.html(`${rank}`);
@@ -385,9 +391,9 @@
     for (var i = 0; i < list.length; i++) {
       var entry = list[i];
       if (entry.key != null) {
-        $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i + 1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+        $("<div tabindex='0'>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i + 1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
       } else {
-        $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+        $("<div tabindex='0'>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
       }
     }
     // handlers
@@ -443,21 +449,21 @@
         }
 
         if (entry.verificationVid && entry.verificationVid.trim() !== "") {
-          $("#levelvid").html(`<iframe class="vid" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+          $("#levelvid").html(`<iframe title="youtube" class="vid" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
         }
 
         $("#levelqualify").text(`Percent to qualify: ${entry.percentToQualify}%`);
         $("#records-score").html(`<span id="levelpoints">${getPoint(rank)} Points</span>`);
-        $("#records-id").html(`Level ID:<div class="level-info-button" id="copyid"><span id="level-id">${entry.id}</span><img class="clipboard" src="css/assets/copy-regular.svg"></div>`);
+        $("#records-id").html(`Level ID:<div class="level-info-button" id="copyid"><span id="level-id">${entry.id}</span><img class="clipboard" src="css/assets/copy-regular.svg" alt="copy"></div>`);
 
         entry.pass ?
-        $("#records-pass").html(`Level Password:<div class="level-info-button" id="copypass"><span id="level-pass">${entry.pass}</span><img class="clipboard" src="css/assets/copy-regular.svg"></div>`)
+        $("#records-pass").html(`Level Password:<div class="level-info-button" id="copypass"><span id="level-pass">${entry.pass}</span><img class="clipboard" src="css/assets/copy-regular.svg" alt="copy"></div>`)
         :
         $("#records-pass").html(`Level Password:<div class="level-info-button">No Pass</div>`);
 
         $("#records-song").css("display", "none");
         if(entry.song) {
-          $("#records-song").html(`Custom Song: <div class="level-info-button" id="download-button"><a href="${entry.song}" target="_blank" id="songlink">Download</a><img class="download" src="css/assets/download-solid.svg"></div>`);
+          $("#records-song").html(`Custom Song: <div class="level-info-button" id="download-button"><a href="${entry.song}" target="_blank" id="songlink">Download</a><img class="download" src="css/assets/download-solid.svg" alt="download"></div>`);
           $("#records-song").css("display", "");
         }
         $("#inside-level-author").html(final_author);

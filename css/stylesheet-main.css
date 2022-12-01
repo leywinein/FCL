@@ -2,6 +2,9 @@
   font-family: 'Mukta Mahee', sans-serif !important;
   color: ghostwhite;
 }
+body{
+  background: #00001b !important;
+}
 #block{
   position: fixed;
   top: 0;
@@ -14,15 +17,6 @@
 }
 a:link {
   text-decoration: none;
-}
-#hi{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00001b !important;
-  z-index: 99;
 }
 
 /*****Keyframes*****/
@@ -76,7 +70,6 @@ header{
   text-shadow: 0px 0px 10px #c0ceff;
 }
 #list-logo {
-  height: 60px;
   transition: filter 0.1s ease-out,
   transform 0.1s ease-out;
 }
@@ -547,16 +540,18 @@ I'm too scared to remove them*/
   border-top-right-radius: 1.5em;
   border: 1px solid rgba(125, 149, 255, 0.125);
 }
-#user-rank-info ol {
-  padding: 1em 0em 1em 2.5em;
+#user-rank {
+  font-size: 20px;
+  font-weight: bold;
+}
+#user-rank ol {
+  list-style: none;
+  padding: 1em 0em 1em 1em;
   margin: 0;
   background: #16182f;
   border-left: 1px solid rgba(125, 149, 255, 0.125);
   border-right: 1px solid rgba(125, 149, 255, 0.125);
-}
-#user-rank {
-  font-size: 20px;
-  font-weight: bold;
+  word-break: break-word;
 }
 
 /*
@@ -633,9 +628,6 @@ Scroll bar
 	#guidelines {
 		padding: 1.5em 0em;
 	}
-  #user-rank-info ol {
-    padding: 1em 0em 1em 0.25em;
-  }
   header {
     padding: 0 1em;
   }
