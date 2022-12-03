@@ -210,6 +210,9 @@ header{
   gap: 2em;
   padding: 1.5em 3em;
 }
+#credits {
+  text-align: center;
+}
 #credits a{
   text-decoration: underline;
   color: rgb(87, 121, 255);
@@ -602,22 +605,27 @@ Scroll bar
 }
 
 /*****Media queries*****/
-@media all and (max-width: 772px) {
-	#guidelines {
+@media all and (max-width: 1024px) {
+  #guidelines {
     width: 100%;
     padding: 1.5em 0.75em;
   }
+  #copy-buttons {
+    width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
 	#additional-information {
 		overflow-x: hidden;
 	}
-}
-@media all and (max-width: 676px) {
   #copy-buttons {
-    width: 90%;
+    flex-direction: column;
+    align-items: stretch;
+    width: 75%;
   }
   #records-song {
     align-items: stretch;
-    width: 90%;
+    width: 70%;
   }
 	#info {
 		overflow-x: hidden;
@@ -634,21 +642,38 @@ Scroll bar
   #inner-right-info {
     padding: 1.5em 0;
   }
-	#guidelines {
-		padding: 1.5em 0em;
-	}
   header {
     padding: 0 1em;
   }
 	#level-submit {
 	padding: 0.5em;
 	}
+  #user-rank ol {
+    padding-left: 0px;
+  }
 }
-
-@media all and (max-width: 591px) {
-	#header-links  {
-	flex-direction: column;
-	gap: 0.5em;
+@media all and (max-width: 425px) {
+	#guidelines {
+		padding: 1.5em 0em;
+	}
+  #guidelines ul {
+    padding: 1em 0;
+  }
+  #staff-list {
+    padding: 1em 0.5em;
+  }
+  #copy-buttons {
+    width: 100%;
+  }
+  #records-song {
+    width: 100%;
+  }
+  #download-button {
+    gap: 5px;
+  }
+  #header-links  {
+    flex-direction: column;
+    gap: 0.5em;
 	}
   #record-link {
     font-size: 0.9rem;
@@ -671,8 +696,17 @@ Scroll bar
 	#list {
 		word-wrap: break-word;
 	}
+  .entry {
+    padding: 0.75em 0.25em;
+  }
 	.interentry {
 		padding: 0.5em 0;
 		word-wrap: break-word;
 	}
+}
+
+@media all and (max-width: 376px) {
+  #levelpoints {
+    font-size: 1.25rem;
+  }
 }
