@@ -715,6 +715,12 @@ const d = {
           "percent": 100,
           "hz": "360hz",
         },
+        {
+          "user": "novy",
+          "link": "https://streamable.com/sxa31h",
+          "percent": 100,
+          "hz": "240hz"
+        },
       ],
       "name": "Me and U",
       "author": "Matluthi",
@@ -899,6 +905,12 @@ const d = {
           "link": "https://m.youtube.com/watch?v=U-ttbpSZMew&t=2s",
           "percent": 100,
           "hz": "360hz",
+        },
+        {
+          "user": "Psycholact",
+          "link": "https://www.youtube.com/watch?v=YTXDg1FPXYY",
+          "percent": 100,
+          "hz": "360hz"
         },
       ],
       "name": "Something",
@@ -1244,6 +1256,12 @@ const d = {
           "link": "https://www.youtube.com/watch?v=1pAWowM2MHA",
           "percent": 100,
           "hz": "75hz"
+        },
+        {
+          "user": "Clipazz",
+          "link": "https://www.youtube.com/watch?v=4JkqnoYLVgU",
+          "percent": 100,
+          "hz": "180hz"
         },
       ],
       "name": "TIME",
@@ -1643,6 +1661,12 @@ const d = {
           "link": "https://youtu.be/tueMr39hKwE",
           "percent": 100,
           "hz": "288hz",
+        },
+        {
+          "user": "Brooke",
+          "link": "https://youtu.be/BprBPOAmexY",
+          "percent": 100,
+          "hz": "120hz"
         },
       ],
       "name": "CLUMSY",
@@ -3678,6 +3702,12 @@ const d = {
 			    "percent": 100,
 			    "hz": "120hz"
 		    },
+        {
+          "user": "TrueNirvana",
+          "link": "https://www.youtube.com/watch?v=R1rLbTaoSMA",
+          "percent": 100,
+          "hz": "288hz",
+        },
       ],
       "name": "Washington Chamber",
       "author": "Novaa [Whizkid05]",
@@ -3772,6 +3802,12 @@ const d = {
           "link": "https://www.youtube.com/watch?v=1pAWowM2MHA",
           "percent": 100,
           "hz": "75hz",
+        },
+        {
+          "user": "TrueNirvana",
+          "link": "https://www.youtube.com/watch?v=XJKX6iO3U70",
+          "percent": 100,
+          "hz": "144hz",
         },
       ],
       "name": "SnowStorm",
@@ -4150,6 +4186,12 @@ const d = {
           "link": "https://www.youtube.com/watch?v=1pAWowM2MHA",
           "percent": 100,
           "hz": "75hz",
+        },
+        {
+          "user": "Brooke",
+          "link": "https://youtu.be/BprBPOAmexY",
+          "percent": 100,
+          "hz": "120hz"
         },
       ],
       "name": "FCL Cope Harder",
@@ -4671,6 +4713,18 @@ const d = {
           "link": "https://youtu.be/q-ThNY32LB4",
           "percent": 100,
           "hz": "360hz",
+        },
+        {
+          "user": "Psycholact",
+          "link": "https://www.youtube.com/watch?v=SXS6xOR_CpU",
+          "percent": 100,
+          "hz": "360hz"
+        },
+        {
+          "user": "Psycholact",
+          "link": "https://www.youtube.com/watch?v=EzOWk6uVpkw",
+          "percent": 100,
+          "hz": "360hz"
         },
       ],
       "name": "FCL Malding",
@@ -6155,6 +6209,12 @@ const d = {
     /*=============================================================================*/
     {
       "vids": [
+        {
+          "user": "TrueNirvana",
+          "link": "https://www.youtube.com/watch?v=g-15Gd6R3mc",
+          "percent": 100,
+          "hz": "288hz",
+        },
     ],
       "name": "Forgotten Realms",
       "author": "ViralX",
@@ -8491,6 +8551,12 @@ const d = {
           "link": "https://www.youtube.com/watch?v=2MZFKiZJoSQ",
           "percent": 100,
           "hz": "360hz",
+        },
+        {
+          "user": "Brooke",
+          "link": "https://youtu.be/BprBPOAmexY",
+          "percent": 100,
+          "hz": "Mobile"
         },
       ],
       "name": "F15H YOURSELF",
