@@ -22,7 +22,7 @@
 	<meta charset="UTF-8">
 
   <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
-  <link rel="stylesheet" href="css/stylesheet-main.css" type="text/css">
+  <link id="styles" rel="stylesheet" href="css/stylesheet-christmas.css" type="text/css">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700&display=swap">
 </head>
 
@@ -32,11 +32,18 @@
 
 	<script type='text/javascript' src="js/list.js"></script>
 	<script type='text/javascript' src="js/userData.js"></script>
+  <script id="christmas-theme-snow" src="node_modules/particles.js/particles.js"></script>
   <header id="dl-header">
+    <div id="particles-js"></div>
     <div id="sitename">
       <!--<img src="https://discord.gg/q8N3VtMg4T" alt="" width="60" height="60">-->
       <img id="list-logo" height="60px" width="139px" src="css/assets/fclegg.avif" alt="FCL">
       <em id="version-node"></em>
+    </div>
+    <div id="krismas" style="font-size: 2rem; position: absolute; left: 50%; transform:translateX(-50%); pointer-events: none;">
+      <p style="font-weight: bold; color: rgb(75, 202, 120); text-shadow: 0 0 10px, 0 0 25px, 0 0 5px black, 0 0 5px black;">
+        krismas is coming
+      </p>
     </div>
     <div id="header-links">
       <a id="record-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSekkziDp9VP4he7tcOpMAuW1Fz2KXBxbCuBSQj4hejQYOtRWg/viewform?usp=sf_link">
@@ -223,6 +230,13 @@
   </div>
   <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="https://unpkg.com/tippy.js@6"></script>
+
+  <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'css/christmas-assets/particlesjs-config.json', function () {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
   <script>
     // height changing script
     var hChange = function () {
@@ -242,6 +256,7 @@
     $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 0%);')
   </script>
   <script name="userpoint" type="text/javascript">
+
     function getPoint(rank) {
       if (rank > 150) {
         return roundNumber(15, 3);
@@ -388,9 +403,9 @@
     for (var i = 0; i < list.length; i++) {
       var entry = list[i];
       if (entry.key != null) {
-        $("<div tabindex='0'>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i + 1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+        $("<button>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i + 1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
       } else {
-        $("<div tabindex='0'>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+        $("<button>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
       }
     }
     // handlers
@@ -491,13 +506,19 @@
       });
       //ok I actually finally got it working 
       //KrisGra#0209 16:02 07.11.2022
+      let background = "rgb(32, 49, 149)";
+
+      if($("#styles").attr("href").includes("stylesheet-christmas.css")){
+        background = "rgb(202, 60, 60)"
+      }
+
       $("#copyid").on('click', (e) => {
         navigator.clipboard.writeText($("#level-id").text());
         Swal.fire({
           icon: 'success',
           text: 'Level ID Copied!',
           color: "ghostwhite",
-          background: "rgb(32, 49, 149)",
+          background: background,
           toast: true,
           timer: 1750,
           timerProgressBar: true,
@@ -511,7 +532,7 @@
 					icon: 'success',
 					text: 'Level Password Copied!',
 					color: "ghostwhite",
-					background: "rgb(32, 49, 149)",
+					background: background,
 					toast: true,
 					timer: 1750,
 					timerProgressBar: true,
@@ -537,6 +558,16 @@
       return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
     load(l * 1)
+  </script>
+  <script>
+    $("#christmas-theme-snow").removeAttr("src");
+    $("#particles-js").hide()
+    $("#krismas").hide()
+    if($("#styles").attr("href").includes("stylesheet-christmas.css")){
+      $("#christmas-theme-snow").attr("src", "node_modules/particles.js/particles.js") ;
+      $("#particles-js").show()
+      $("#krismas").show()
+    }
   </script>
 <!--This did not work in fact-->
   <!-- <script>

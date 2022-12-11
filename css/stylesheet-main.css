@@ -4,6 +4,8 @@
 }
 body{
   background: #00001b !important;
+  min-height: 100vh;
+  margin: 0;
 }
 #block{
   position: fixed;
@@ -164,6 +166,16 @@ header{
   animation: 0.75s ease-out 0s 1 slideInFromBottom;
 }
 .entry{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+
   padding: 1em;
   transition:
   background 0.25s ease-out,
