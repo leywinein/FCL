@@ -83,9 +83,7 @@ header{
 #sitename{
   font-size: 2em;
   animation: 1s ease-in-out 0s 1 slideInFromLeft;
-  transition: transform 0.1s ease-out,
-  text-shadow 0.1s,
-  filter 0.075s ease-out;
+  transition: all 0.12s ease-out;
   display: flex;
   align-items: flex-end;
   gap: 0.2em;
@@ -104,7 +102,7 @@ header{
   transform: translateY(-10%);
 }
 #sitename:hover #list-logo {
-  filter: drop-shadow(-5px 5px 10px black) hue-rotate(320deg) brightness(90%) saturate(120%);
+  filter: drop-shadow(-5px 5px 10px black) hue-rotate(340deg) brightness(125%) saturate(120%);
   transform: translate(5px);
 }
 #sitename:hover #version-node {
@@ -309,35 +307,34 @@ header{
 }
 #guidelines {
   width: 90%;
+  padding: 1.5em;
   border-radius: 1.5em;
+  box-shadow: 0 0 20px 5px rgb(0 0 0 / 50%);
   display: flex;
   flex-direction: column;
   gap: 1em;
   box-sizing: border-box;
-
-  backdrop-filter: blur(25px) saturate(180%);
-  background-color: rgba(52, 23, 23, 0.75);
-  border: 1px solid rgba(125, 255, 179, 0.125);
 }
 #guidelines-title {
-  width: 100%;
   font-weight: bold;
   font-size: 1.25rem;
   text-align: center;
   text-shadow: 0 0 4px black;
-  border-bottom: 1px solid rgba(125, 255, 179, 0.125);
 }
 #guidelines ul {
   box-sizing: border-box;
-  border: 1px solid rgba(125, 255, 179, 0.125);
   border-radius: 1.5em;
   padding: 1em;
   padding-left: 1.35em;
-  margin: 1.5em;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 0.75em;
   list-style: none;
+
+  background-color: rgba(52, 23, 23, 0.75);
+  backdrop-filter: blur(25px) saturate(180%);
+  border: 1px solid rgba(125, 255, 179, 0.125);
 }
 #guidelines li:not(:last-child) {
   padding-bottom: 0.5em;
