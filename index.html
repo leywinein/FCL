@@ -34,12 +34,13 @@
 	<script type='text/javascript' src="js/userData.js"></script>
   <script id="christmas-theme-snow" src="node_modules/particles.js/particles.js"></script>
   <header id="dl-header">
-    <div id="particles-js"></div>
+    <div id="fireworks-js"></div>
     <div id="sitename">
       <!--<img src="https://discord.gg/q8N3VtMg4T" alt="" width="60" height="60">-->
       <img id="list-logo" height="60px" width="139px" src="css/assets/fclegg.avif" alt="FCL">
       <em id="version-node"></em>
     </div>
+    <!--For the christmas theme-->
     <div id="krismas">
       <p>krismas is coming</p>
     </div>
@@ -228,7 +229,10 @@
   </div>
   <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="https://unpkg.com/tippy.js@6"></script>
-
+  <script src="https://www.jqueryscript.net/demo/Realistic-Fireworks-Animations-Using-jQuery-And-Canvas-fireworks-js/jquery.fireworks.js"></script>
+  <script>
+    $('#fireworks-js').fireworks({ sound: false, opacity: 1 });
+  </script>
   <script>
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
     particlesJS.load('particles-js', 'css/christmas-assets/particlesjs-config.json', function () {
