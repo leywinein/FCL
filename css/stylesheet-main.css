@@ -105,7 +105,7 @@ header{
   padding: 0.5em 1em;
   background-color: transparent;
   border-radius: 1.15em;
-  box-shadow: 0 0 10px white; /*00001b*/
+  box-shadow: 0 0 10px #00001b; /*00001b*/
   transition:
   box-shadow 0.15s ease-in-out,
   backdrop-filter 0.15s ease-out;
@@ -113,7 +113,7 @@ header{
   white-space: nowrap;
 }
 #record-link:hover {
-  box-shadow: 0 0 15px white; /*black*/
+  box-shadow: 0 0 15px black; /*black*/
   backdrop-filter: saturate(135%);
 }
 #pc-link{
