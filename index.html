@@ -40,9 +40,10 @@
       <img id="list-logo" height="60px" width="139px" src="css/assets/fclegg.avif" alt="FCL">
       <em id="version-node"></em>
     </div>
-    <!--For the christmas theme-->
+    <!--message in the header for special events
+    (named krismas because it was originally just for christmas and I'm too lazy to change it)-->
     <div id="krismas">
-      <p>krismas is coming</p>
+      <p>valentine</p>
     </div>
     <div id="header-links">
       <a id="record-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSekkziDp9VP4he7tcOpMAuW1Fz2KXBxbCuBSQj4hejQYOtRWg/viewform?usp=sf_link">
@@ -571,7 +572,6 @@
   <script>
     $("#christmas-theme-snow").removeAttr("src");
     $("#particles-js").hide()
-    $("#krismas").hide()
     if($("#styles").attr("href").includes("stylesheet-christmas.css")){
       $("#christmas-theme-snow").attr("src", "node_modules/particles.js/particles.js") ;
       $("#particles-js").show()
