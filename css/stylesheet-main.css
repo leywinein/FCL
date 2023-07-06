@@ -124,9 +124,27 @@ header{
   user-select: none;
   white-space: nowrap;
 }
+#level-link {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  border-radius: 1.15em;
+  box-shadow: 0 0 10px #00001b; /*00001b*/
+  transition:
+  box-shadow 0.15s ease-in-out,
+  backdrop-filter 0.15s ease-out;
+  user-select: none;
+  white-space: nowrap;
+}
 #record-link:hover {
   box-shadow: 0 0 15px black; /*black*/
   backdrop-filter: saturate(135%);
+}
+#level-link:hover {
+  box-shadow: 0 0 15px black; /*black*/
+  backdrop-filter: saturate(135%);
+  backdrop-filter: hue-rotate(30deg);
 }
 #pc-link{
   position: relative;
@@ -707,6 +725,11 @@ Scroll bar
     gap: 0.5em;
 	}
   #record-link {
+    font-size: 0.9rem;
+    font-weight: bolder;
+    padding: 0.5em 0.5em;
+  }
+  #level-link {
     font-size: 0.9rem;
     font-weight: bolder;
     padding: 0.5em 0.5em;
