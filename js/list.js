@@ -3653,8 +3653,7 @@ const d = {
         },
         {
           user: "Akira",
-          link: "https://youtu.be/O9aNMgoDUj4
-          ",
+          link: "https://youtu.be/O9aNMgoDUj4",
           percent: 100,
           hz: "360hz",
         },
