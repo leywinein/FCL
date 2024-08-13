@@ -2,6 +2,18 @@ const d = {
   list: [
     {
       vids: [
+        
+      ],
+      name: "pass the hoe",
+      author: "LeywinGD and GS12 [LeywinGD]",
+      id: 108990984,
+      song: "bit.ly/passthehoe",
+      percentToQualify: 100,
+      verificationVid: "https://www.youtube.com/watch?v=kVdPbQXng_U",
+    },
+    /*=============================================================================*/
+    {
+      vids: [
         {
           user: "Airzyy",
           link: "https://youtu.be/mYc-Bnn-4Fk",
@@ -10842,124 +10854,6 @@ const d = {
       id: 82592311,
       percentToQualify: 100,
       verificationVid: "https://www.youtube.com/watch?v=qgPlSKOTc_0",
-    },
-    /*=============================================================================*/
-    {
-      vids: [
-        {
-          user: "CoopaTroopa",
-          link: "https://www.youtube.com/watch?v=wen3IMV3imc",
-          percent: 100,
-          hz: "240hz",
-        },
-        {
-          user: "BlizzardLaZario",
-          link: "https://www.youtube.com/watch?v=52XFqT7kJvY",
-          percent: 100,
-          hz: "240hz",
-        },
-        {
-          user: "Meowmasterer",
-          link: "https://www.youtube.com/watch?v=1pAWowM2MHA",
-          percent: 100,
-          hz: "75hz",
-        },
-        {
-          user: "NotMatheo",
-          link: "https://www.youtube.com/watch?v=2MZFKiZJoSQ",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "Brooke",
-          link: "https://youtu.be/BprBPOAmexY",
-          percent: 100,
-          hz: "Mobile",
-        },
-        {
-          user: "Troy3",
-          link: "https://youtu.be/pAnJKdQvjG4",
-          percent: 100,
-          hz: "180hz",
-        },
-        {
-          user: "Cyphe",
-          link: "https://youtu.be/Jr6_C8tNzms",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "Buendel",
-          link: "https://youtu.be/_j_vLNifw4Y?list=PL0JB29HJP8fXUgkxKpZ0I3JKilSHUraDa",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "Airzyy",
-          link: "https://youtu.be/mYc-Bnn-4Fk",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "notcreative",
-          link: "https://youtu.be/LcVrO-ci4EM",
-          percent: 100,
-          hz: "330hz",
-        },
-        {
-          user: "Fluff467",
-          link: "https://www.youtube.com/watch?v=TbYg3KllSMA",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "Sanctum",
-          link: "https://www.youtube.com/watch?v=VE7xikhndAs",
-          percent: 100,
-          hz: "Mobile",
-        },
-        {
-          user: "Buendel",
-          link: "https://www.youtube.com/playlist?list=PL0JB29HJP8fXUgkxKpZ0I3JKilSHUraDa",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "KrisYaYT",
-          link: "https://www.youtube.com/watch?v=4yH9IZq9dqs",
-          percent: 100,
-          hz: "240",
-        },
-        {
-          user: "Mag1cW",
-          link: "https://www.youtube.com/watch?v=tjLczWZqxp0",
-          percent: 100,
-          hz: "360",
-        },
-        {
-          user: "arcane",
-          link: "https://youtu.be/cd_v-w8aTvY?si=atb7ZmvWJZ4r51a7",
-          percent: 100,
-          hz: "144",
-        },
-        {
-          user: "Twister21",
-          link: "https://www.youtube.com/watch?v=gMmJHSjAXgA",
-          percent: 100,
-          hz: "360",
-        },
-        {
-          user: "nish",
-          link: "https://www.youtube.com/watch?v=fX8x2FTC2Gw",
-          percent: 100,
-          hz: "360",
-        },
-      ],
-      name: "F15H YOURSELF",
-      author: "Lunar79Au",
-      id: 83121077,
-      percentToQualify: 100,
-      verificationVid: "https://youtu.be/azJcku8ck6M?t=24",
     },
     /*=============================================================================*/
   ],
