@@ -7,7 +7,7 @@ const d = {
       name: "pass the hoe",
       author: "LeywinGD and GS12 [LeywinGD]",
       id: 108990984,
-      song: "bit.ly/passthehoe",
+      song: "https://cdn.discordapp.com/attachments/853670159511977985/1272829572056088620/510853.mp3?ex=66c103aa&is=66bfb22a&hm=cb7f705be64f48b224a053d884d970b7c3a323cdf91436d6233658e691d56d9f&",
       percentToQualify: 100,
       verificationVid: "https://www.youtube.com/watch?v=kVdPbQXng_U",
     },
