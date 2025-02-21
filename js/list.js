@@ -1,7 +1,6 @@
 const d = {
   list: [
     {
-    {
       vids: [
         {
           user: "Airzyy",
