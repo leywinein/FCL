@@ -10779,7 +10779,6 @@ const d = {
       percentToQualify: 100,
       verificationVid: "https://www.youtube.com/watch?v=tB5Kt6wp_7c",
     },
-    /*=============================================================================*/
   ],
   version: [2, 2, 1],
 };
