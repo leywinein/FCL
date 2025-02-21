@@ -1,17 +1,6 @@
 const d = {
   list: [
     {
-      vids: [
-        
-      ],
-      name: "pass the hoe",
-      author: "LeywinGD and GS12 [LeywinGD]",
-      id: 108990984,
-      song: "https://cdn.discordapp.com/attachments/853670159511977985/1272829572056088620/510853.mp3?ex=66c103aa&is=66bfb22a&hm=cb7f705be64f48b224a053d884d970b7c3a323cdf91436d6233658e691d56d9f&",
-      percentToQualify: 100,
-      verificationVid: "https://www.youtube.com/watch?v=kVdPbQXng_U",
-    },
-    /*=============================================================================*/
     {
       vids: [
         {
@@ -74,6 +63,17 @@ const d = {
       id: 86959931,
       percentToQualify: 100,
       verificationVid: "https://youtu.be/ucZpnk-6448",
+    },
+    /*=============================================================================*/
+      vids: [
+        
+      ],
+      name: "I WANT YOU",
+      author: "Cyphe [GS12]",
+      id: 104004379,
+      song: "https://cdn.discordapp.com/attachments/854135137942634496/1126647938609844336/123678.mp3",
+      percentToQualify: 100,
+      verificationVid: "https://www.youtube.com/watch?v=LsYdvBNGMIQ",
     },
     /*=============================================================================*/
     {
@@ -153,6 +153,17 @@ const d = {
       verificationVid: "https://youtu.be/hgOGJDQA40s",
     },
         /*=============================================================================*/
+      vids: [
+        
+      ],
+      name: "POINT BLANK",
+      author: "LeywinGD and Cyphe [Cyphe]",
+      id: 87591922,
+      song: "https://cdn.discordapp.com/attachments/854135137942634496/1126647938609844336/123678.mp3",
+      percentToQualify: 100,
+      verificationVid: "https://www.youtube.com/watch?v=9ax58L5zUlo",
+    },
+    /*=============================================================================*/
     {
       vids: [
         {
@@ -10770,124 +10781,6 @@ const d = {
       id: 73265106,
       percentToQualify: 100,
       verificationVid: "https://www.youtube.com/watch?v=tB5Kt6wp_7c",
-    },
-    /*=============================================================================*/
-    {
-      vids: [
-        {
-          user: "functionxd",
-          link: "https://www.youtube.com/watch?v=B_1mZSlml6Q",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "taiga",
-          link: "https://youtu.be/3iLhWgA5B9M",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "Airzyy",
-          link: "https://youtu.be/mYc-Bnn-4Fk",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "Virologiclmp",
-          link: "https://www.youtube.com/watch?v=pRGlSAbPZYw",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "CoopaTroopa",
-          link: "https://youtu.be/62sswSq52Lc",
-          percent: 100,
-          hz: "240hz",
-        },
-        {
-          user: "lunxtic",
-          link: "https://youtu.be/z5nUAdjz6do",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "feit",
-          link: "https://youtu.be/4AOUNTF-IPg",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "Lunar79Au",
-          link: "https://youtu.be/Ssz24J1Gbeo",
-          percent: 100,
-          hz: "240hz",
-        },
-        {
-          user: "Sanctum",
-          link: "https://youtu.be/I6whnYTjT8M",
-          percent: 100,
-          hz: "Mobile",
-        },
-        {
-          user: "kiacarvroom",
-          link: "https://www.youtube.com/watch?v=bGnh6KKbW14",
-          percent: 100,
-          hz: "Mobile",
-        },
-        {
-          user: "NotMatheo",
-          link: "https://www.youtube.com/watch?v=tQG5mv0sW9s",
-          percent: 100,
-          hz: "360hz",
-        },
-        {
-          user: "Ashile",
-          link: "https://www.youtube.com/watch?v=29Rk5YU0VeU&t=374s",
-          percent: 100,
-          hz: "120hz",
-        },
-        {
-          user: "KrisYaYT",
-          link: "https://www.youtube.com/watch?v=cetyp9uA7Mw",
-          percent: 100,
-          hz: "240",
-        },
-        {
-          user: "Mag1cW",
-          link: "https://www.youtube.com/watch?v=tjLczWZqxp0",
-          percent: 100,
-          hz: "360",
-        },
-        {
-          user: "uhlyx",
-          link: "https://www.youtube.com/watch?v=EXwZke23bSs",
-          percent: 100,
-          hz: "288",
-        },
-        {
-          user: "Twister21",
-          link: "https://www.youtube.com/watch?v=gMmJHSjAXgA",
-          percent: 100,
-          hz: "360",
-        },
-        {
-          user: "nish",
-          link: "https://youtu.be/Gjye6-KE-LA",
-          percent: 100,
-          hz: "360",
-        },
-        {
-          user: "CrokyTheKiwi",
-          link: "https://www.youtube.com/watch?v=yUgi1Si7ld8",
-          percent: 100,
-          hz: "360",
-        },
-        ],
-    name: "Subterrane",
-      author: "Slick [Brooke]",
-      id: 87746409,
-      percentToQualify: 100,
-      verificationVid: "https://www.youtube.com/watch?v=6aVetmzXbGY",
     },
     /*=============================================================================*/
   ],
